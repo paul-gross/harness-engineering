@@ -27,9 +27,12 @@ We're not sprinting anymore, we have wheels.  And wheels change the game.  Maybe
 
 As we go faster and faster with agentic development, we will feel [upward forces I call Lift](./lift.md).  We'll begin to feel the urge to let the LLM generated code be pushed out without thoroughly reviewing it.  "It looks good, I think it works."  The act of letting go is tough.  Once you let go, you are signing off and saying "I approve this work, I am responsible for it, but I trusted an LLM to generate it correctly."  That's very powerful.  But it can also be very dangerous if you have no agentic harness, no quality controls, and the work you are signing off as would generally be identified as AI slop.
 
-No matter what you are in this world, if you go fast enough you will experience lift.  It's physics.  There is a limit to how fast you can go before that force becomes your barrier.  One of the secondary responsibilities of Harness Engineering is to continually push the maximum velocity that the team can attain without lift.
+No matter what you are in this world, if you go fast enough you will experience lift.  It's not physics, not really, but you get the point.  There is a limit to how fast you can go before that force becomes your barrier.  One of the secondary responsibilities of Harness Engineering is to continually push the maximum velocity that the team can attain without lift.
 
-While the primary agentic developers focus on velocity.  The [Agentic Harness Architect](./agentic-harness-architect.md) focuses on aerodynamics.
+## [Architects and Harness Engineering](./architects-and-harness-engineering.md)
+
+* The [Harness Engineer](./harness-engineer.md) focuses on velocity.
+* The [Application Architect](./application-architect.md) focuses on aerodynamics.
 
 The analogy breaks down when you try to cross physics over to software development, so just leave it alone and don't think too hard about it.
 
@@ -43,6 +46,4 @@ My personal goal is to have the most amazing rocket boosters on my agent harness
 * Spend minimal time reviewing the code while fully understanding the system and changes taking place
 
 Everyone wants this, right?  Go fast and stay grounded.
-
-If you want to understand what goes into this, then you are right to come here.
 

@@ -1,4 +1,4 @@
-# Development / Testing Loop
+# Agentic Development / Testing Loop
 
 ```
 do {
@@ -7,19 +7,19 @@ do {
 } while (!done)
 ``` 
 
-Development has largely operated on a development/testing loop since the beginning of it's inception.  It is the fundamental loop that allows us to achieve our goals.  Try something.  Did it work?  Yes -> Great, No -> Keep trying.
+Software development has largely operated on a [development/testing](./traditional-feedback-loops.md) loop since the beginning of it's inception.  It is the fundamental loop that allows us to achieve our goals.  Try something.  Did it work?  Yes -> Great, No -> Keep trying.
 
 In our day to day, we may experience this as changing some code and checking to see if the API is still returning the wrong results.
 
 Agents operate the same way.  First build, then verify.  We know what happens when developers throw code over the wall, don't let your agents do it.
+
+We model our agent behavior after our own, [I am the exemplar](/philosophy/i-am-the-exemplar.md).
 
 ## The Goal: tight feedback loops
 
 The long-term vision of harness engineering should be to create extremely tight feedback loops between agents that build and agents that verify or evaluate.
 
 If we build out an entire feature set that is thousands of lines of code before we do any verification, we have historically been apt to realize a mistake along the way which would fundamentally challenge our approach. This is costly. The tighter the feedback loops, the more productive we became. 
-
-We seldom realize how spoiled we are when working in systems that have hot module reload capabilities. These tools have been designed around the philosophy that humans work best with extremely tight feedback loops. The longer it takes between build and verify, the slower the engineers work. This is a human engineering concept that also applies to agents.  LSPs offer immediate feedback on code that fails linting rules or type-checking.  It is quite impressive how much we have built to achieve instantaneous feedback on everything we build.
 
 Agents thrive on tight feedback loops.
 
@@ -28,16 +28,33 @@ Agents thrive on tight feedback loops.
 * Does it lint? No -> Fix it
 * Do the unit tests pass? No -> Fix it
 * Do the integration tests pass? No -> Fix it
-* Does it **work**? :thonking:  Can your agent actually [verify what it built works](./agent-verification.md)?
+* Does it **work**? :thonking:  Can your agent [verify what it built works](./agent-verification.md)?  No -> Fix it
 
 At this point, our agents aren't able to handle extremely low latency real time operations.  They aren't cross referencing workspace level LSP type checking hints with the code they just wrote.  Maybe some are, but the agents aren't built to take in an event stream (this may be cost prohibitive based on how token caches work).  They're built to take in large blocks of context.  But that doesn't mean we can't aim for the same experience.
 
-* Can you write an application that debounces all of the feedback, collects it, and relays it back to the agents?  Why not?
-* Can you write an application that generates test fixtures for all of the various scenarios your application may see?  Why not?
-* Can you make an agent that builds the applications listed above?  Why not?
-* Can you build an agentic harness that helps keep the agents on track by using agents to build these cool things? I believe so
-* Can you task an agent to build an agentic harness that enables all of these cool things?  [No, you cannot](../philosophy/ai-cannot-harness-engineer.md), agents are not capable of higher level thinking like that
 
+### Pondering about agent tooling
+
+* Can we write an application that debounces all of the feedback, collects it, and relays it back to the agents?
+* Can we write an application that generates test fixtures for all of the various scenarios your application may see?
+* Can we make an agent that builds the applications listed above?
+* Can we build an agentic harness that helps keep the agents on track by using agents to build these useful agent tools?
+* Can we task an agent to build an agentic harness that enables all of these cool things?  [No, you cannot](../philosophy/ai-cannot-harness-engineer.md), agents are not capable of higher level thinking like that
+
+The question of whether or not agents can [self manage and iterate on their own tooling](./agent-managed-tooling.md) is one I am currently exploring.  My efforts have been unsuccessful so far, but I will not give up.
+
+I'm excited to see what new tools come that will aid in agentic development.
+
+* Error telemetry pushed from application into a local service that manages the information and injects it into the appropriate agent terminal process
+* Automatic scaffolding of APIs into markdown files for agent consumption (where agents are not trained to know the API internally)
+
+There are so many interesting ideas to explore!
+
+### Our modern development tooling
+
+We seldom realize how spoiled we are when working in systems that have hot module reload capabilities. These tools have been designed around the philosophy that humans work best with extremely tight feedback loops. The longer it takes between build and verify, the slower the engineers work. This is a human engineering concept that also applies to agents.  LSPs offer immediate feedback on code that fails linting rules or type-checking.  It is quite impressive how much we have built to achieve instantaneous feedback on everything we build.
+
+How these translate to agent tools will be determined in the near future.
 
 ## Development
 

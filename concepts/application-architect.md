@@ -49,6 +49,22 @@ I have found success in owning my own productivity without asking for permission
 
 Start giving engineers a clear and unambiguous direction on their contributions towards future productivity vs feature development.  Track hours if needed.  Declare it as 100% of their time, 50%, 30%, 10%, whatever it is.
 
+## Application Architecture
+
+The codebase should be like a superconductive magnet for a high speed maglev train system. The term I love to use is they continuously identify and eliminate **friction**.
+
+### Architecture & organized code (Application Architecture)
+
+* Maintain incredibly useful and powerful abstractions that support application use cases
+* Eliminate wrong abstractions, plug leaky abstractions, separate concerns
+* Reorganize concepts and structures within the codebase to maximize how easy it is to extend the code and review changes
+* Maximize testability and maintainability without sacrificing other runtime architectural concerns
+* Provide and maintain Exemplars in the codebase for agents to follow
+* Provide guidance and solutions to problems that the primary agentic developers encounter when constructing larger new systems 
+* Create computational checks and inferential LLM prompts that autonomously reduce drift
+
+* Positive feedback loop experiments, such as [Forward Deployed Engineering](./forward-deployed-engineering.md) become more efficient
+
 ## A natural fit for the harness engineer
 
 The application architect has historically been the person who is responsible for a team being highly productive while they work.  They understand complex high level concepts that allow them to create elegant, simple solutions to complex problems.  That skill has historically resulted in projects that do very well over time.  Feature velocity doesn't go down, it goes up.  Dividends are gained from architectural investments.

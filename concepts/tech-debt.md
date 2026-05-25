@@ -70,6 +70,6 @@ This is a lot of work, yes, but like most tech debt / refactoring it is a large 
 
 LLMs completely change the game when it comes to tackling tech debt.  You can start with having them tackle automated business testing (aka real end to end tests) first (often a technical debt item of many teams).  Then that will give you a way to score the refactor.
 
-This is one of the reasons that I believe the [Agentic Harness Architect](./agentic-harness-architect.md) should have full autonomy, they should be able to prioritize tackling tech debt that enables the agentic harness (especially [Application Architecture](./application-architect.md)).
+This is one of the reasons that I believe the [Application Architect](./application-architect.md) should have more autonomy, they should be able to prioritize tackling tech debt that enables the agentic harness to stay grounded.
 
 

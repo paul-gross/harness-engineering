@@ -10,7 +10,7 @@ Historically, development took a long time, a lot of careful planning, a lot of 
 
 LLMs allow us to condense the work down so small that it can be done in real time.
 
-It's not new to be able to change an application in front of someone.  Many of us developers have been so well tuned into our application that we can make changes and adjustments over a video call.  We've been enabled by [hot module reload and extremely tight feedback loops](./feedback-loops.md) via developer tooling for nearly a decade.  What has changed is simply the **scope** of what can be attained in near real time.
+It's not new to be able to change an application in front of someone.  Many of us developers have been so well tuned into our application that we can make changes and adjustments over a video call.  We've been enabled by [hot module reload and extremely tight feedback loops](./traditional-feedback-loops.md) via developer tooling for nearly a decade.  What has changed is simply the **scope** of what can be attained in near real time.
 
 ## Sacrifice
 

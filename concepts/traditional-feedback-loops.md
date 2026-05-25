@@ -1,6 +1,8 @@
-# Feedback Loops
+# Traditional Feedback Loops
 
-## The development and testing loop
+How we worked when we wrote code by hand.
+
+## The traditional development and testing loop
 
 Everything that agents do in order to build software strongly mimics what we have done as engineers in our day-to-day. One very basic example is our basic [development and testing loop](./development-testing-loop.md).
 
