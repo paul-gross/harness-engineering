@@ -2,7 +2,7 @@
 
 Information digestion is the focus of optimization.
 
-The rate at which we find and gather information has been transformed this decade.  It's no longer orientated around what you know, it's also now about how fast you can find out what you need to know.
+The rate at which we find and gather information has been transformed this decade.  It's no longer oriented around what you know, it's also now about how fast you can find out what you need to know.
 
 Yes, what the web of information that makes up your intuition is also important.  It's just not all about your ability to add to that intuition.
 
@@ -23,7 +23,7 @@ Content should be designed not to be read in its entirety, but instead to be che
 * **Discoverability**: Headers, subheaders, bullets (main point and verbose description), and paragraphs are just a tree structure for O(log n) retrieval
 * **Agents love skimmability**: It's not just about O(log n) retrieval, it's about context management -- only draw what is relevant to the task
 
-Paragraphs can be useful to convey additional details when bullets don't suffice.  You cannot build an intuition network from bullets alone.  At some point, a large block of information is going to be necessary to provide the understanding relevant to the topic.  That can be accompanied by additional details, examples, etc, but must not be composed in a way that duplicates the concept.  This is where [Markdown Links](./readability-equals-skimmability.md), or progressive disclosure of information, begins to arise.
+Paragraphs can be useful to convey additional details when bullets don't suffice.  You cannot build an intuition network from bullets alone.  At some point, a large block of information is going to be necessary to provide the understanding relevant to the topic.  That can be accompanied by additional details, examples, etc, but must not be composed in a way that duplicates the concept.  This is where [Markdown Links](./intuition-network.md), or progressive disclosure of information, begins to arise.
 
 * **Intuition Network**: Organizing concepts into markdown files that link to each other helps convey interconnected system concepts without concept duplication
 * **Information slices**: A well organized markdown based intuition web can be processed into an information slice, where an understanding is drawn from many small parts of many markdown files.

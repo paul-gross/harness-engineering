@@ -7,13 +7,13 @@ do {
 } while (!done)
 ```
 
-Software development has largely operated on a [development/testing](./traditional-feedback-loops.md) loop since the beginning of it's inception.  It is the fundamental loop that allows us to achieve our goals.  Try something.  Did it work?  Yes -> Great, No -> Keep trying.
+Software development has largely operated on a [development/testing](./traditional-feedback-loops.md) loop since the beginning of its inception.  It is the fundamental loop that allows us to achieve our goals.  Try something.  Did it work?  Yes -> Great, No -> Keep trying.
 
 In our day to day, we may experience this as changing some code and checking to see if the API is still returning the wrong results.
 
 Agents operate the same way.  First build, then verify.  We know what happens when developers throw code over the wall, don't let your agents do it.
 
-We model our agent behavior after our own, [I am the exemplar](/philosophy/i-am-the-exemplar.md).
+We model our agent behavior after our own, [I am the exemplar](../philosophy/i-am-the-exemplar.md).
 
 ## The Goal: tight feedback loops
 

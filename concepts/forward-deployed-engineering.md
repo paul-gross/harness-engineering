@@ -14,7 +14,7 @@ It's not new to be able to change an application in front of someone.  Many of u
 
 ## Sacrifice
 
-If forward deployed engineering is all about delivering value to the user as fast as possible, it doesn't need to concern itself as much with other aspects of the software, such as maintainability, extensibility, or readability.  Those architectural properties can ebb and flow.  The [agentic harness architect](./agentic-harness-architect.md) and the modern software engineer can [refactor](./tech-debt.md) it later, as long as nobody [builds on top of the slop](./tech-debt.md).
+If forward deployed engineering is all about delivering value to the user as fast as possible, it doesn't need to concern itself as much with other aspects of the software, such as maintainability, extensibility, or readability.  Those architectural properties can ebb and flow.  The [harness engineer](./harness-engineer.md) and the modern software engineer can [refactor](./tech-debt.md) it later, as long as nobody [builds on top of the slop](./tech-debt.md).
 
 Consider it a temporary sacrifice for immediate value, a short term loan if you will.
 

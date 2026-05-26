@@ -27,7 +27,7 @@ This is where the handoff occurs to the agent.  The human is no longer in the lo
 
 * **Development**: Writing code
 * **Evaluation**: Does it violate our invariants?
-* **Verication**: Is it correct?
+* **Verification**: Is it correct?
 
 * **Review**: Human sign off
 * **Retrospective**: What worked?  How can the harness be improved?
@@ -40,7 +40,7 @@ An overwhelming amount of people have adopted planning as a critical part of the
 
 ## Development, Evaluation, & Testing
 
-Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a another question, "How do we get humans to write code effectively in our system?" but without the [grim trajectory](./grim-trajectory.md).  There a lot of new ideas to explore with LLMs handling more and more, but the fundamentals are still the same as the way humans work.
+Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself another question, "How do we get humans to write code effectively in our system?" but without the [grim trajectory](./grim-trajectory.md).  There are a lot of new ideas to explore with LLMs handling more and more, but the fundamentals are still the same as the way humans work.
 
 **LLMs and Humans are extremely similar**
 
@@ -52,7 +52,7 @@ What makes humans more effective is very likely going to overlap with what makes
 
 The agentic tool of choice will research the topic and gather additional context based on the task.  
 
-* The plan itself may include relevent topics (this can be done if you elect to do so as part of your planning process)
+* The plan itself may include relevant topics (this can be done if you elect to do so as part of your planning process)
 * The CLAUDE.md or AGENTS.md file will be the primary entrypoint into the repository
 * Based on the task, the agent may load additional files that it is aware of, typically via markdown links
 
@@ -62,11 +62,11 @@ Agents are nearly identical to humans who start a project on their first day, th
 
 ##### Domain documentation
 
-If your plan is to create an video conference solution integration with a meeting invite, it is beneficial for the agent to understand how the meeting invite fits in with the application.  Is it part of a calendar?  Or is it part of an automated process pipeline?
+If your plan is to create a video conference solution integration with a meeting invite, it is beneficial for the agent to understand how the meeting invite fits in with the application.  Is it part of a calendar?  Or is it part of an automated process pipeline?
 
 ##### Principles to follow
 
-Help guide the way the code is written.  Should the code be OOP or functional?  Should it follow SOLID princples or is it more tactical?  Should it abstract things out?  Should it build features completely or follow YAGNI?
+Help guide the way the code is written.  Should the code be OOP or functional?  Should it follow SOLID principles or is it more tactical?  Should it abstract things out?  Should it build features completely or follow YAGNI?
 
 #### Reverse Engineering
 
@@ -86,6 +86,6 @@ Help guide the way the code is written.  Should the code be OOP or functional?  
 
 * **Playwright MCP / Browser Testing**: More subjective LLM driven assessment of acceptance criteria
 * **CURL / Command Line Testing**: Less subjective LLM driven assessment of acceptance criteria
-* **Automated Automated E2E Testing**: Even less subjective LLM driven assessment of acceptance criteria
+* **Automated E2E Testing**: Even less subjective LLM driven assessment of acceptance criteria
 
 ## Verification

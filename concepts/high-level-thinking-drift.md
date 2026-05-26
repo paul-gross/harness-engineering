@@ -21,7 +21,7 @@ Now that you have your agentic harness, you start to feed it features.  That one
 
 ### High level thinking & recursive drift
 
-The above should give you a basic understanding of how a small prompt with high expectations can often go off the rails.  I've tried to use AI to create *things* that AI uses to create *more things* and it was a struggle.  Eventually I opened a conversation with Opus about it and it was actually great at explaining what was going on.  Drift.  The imperfections and hallucinations build up over iterations of AI refinement.  This is why [AI cannot harness engineer](/philosophy/ai-cannot-harness-engineer.md).  The more high level instructions we give it, without steering, the more *grey* it becomes.
+The above should give you a basic understanding of how a small prompt with high expectations can often go off the rails.  I've tried to use AI to create *things* that AI uses to create *more things* and it was a struggle.  Eventually I opened a conversation with Opus about it and it was actually great at explaining what was going on.  Drift.  The imperfections and hallucinations build up over iterations of AI refinement.  This is why [AI cannot harness engineer](../philosophy/ai-cannot-harness-engineer.md).  The more high level instructions we give it, without steering, the more *grey* it becomes.
 
 Grey isn't even a great term for it.  I can't describe it any other way than *Drift*.  It's a great term.
 

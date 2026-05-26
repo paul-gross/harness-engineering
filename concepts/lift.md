@@ -27,10 +27,10 @@ These defects in the code are a form of drift.  If you allow the faulty pattern 
 
 Vibe coding is in essence when you are getting air from the very beginning.  There is no evidence to support that getting air is good or bad at this point.  Our hunch is that the spiral of increased complexity will continually slow down the agents and lead to increased time spent iterating, reviewing, and validating the output (decreased feature velocity).  This is remarkably similar to the pre-LLM era where inexperienced developers and teams were left to push changes without adequate review or architectural consideration.
 
-Getting air is not necessarily the same as accumulating tech debt, tech debt occurs when you build on top of something.  Getting a little air is akin to having imperfections in the most outer concrete layers of your application (frontend HTML).  It's not ideal, but nothing depends on it, so you can clean it up pretty easily at any point.
+Getting air is not necessarily the same as accumulating tech debt, tech debt occurs when you build on top of something.  Getting a little air is akin to having imperfections in the outermost concrete layers of your application (frontend HTML).  It's not ideal, but nothing depends on it, so you can clean it up pretty easily at any point.
 
 ## Lift and getting air is not inherently bad
 
 Strong agentic development architects will recognize the value in getting new functionality to the users.  With LLM generated code, this process can occur [at the frontline](./forward-deployed-engineering.md).  There is no business out there that doesn't want to get features out yesterday.
 
-As the codebase drifts due to engineers pushing code they have not reviewed or do not understand, it is simply a matter of prioritizing the process of regular flossing and maintenance as pattern of the software development process.  The [Grim Trajectory](./grim-trajectory.md) and [FDEs](./forward-deployed-engineering.md) are counterbalanced by the [Agentic Harness Architect](./agentic-harness-architect.md)).
+As the codebase drifts due to engineers pushing code they have not reviewed or do not understand, it is simply a matter of prioritizing the process of regular flossing and maintenance as pattern of the software development process.  The [Grim Trajectory](./grim-trajectory.md) and [FDEs](./forward-deployed-engineering.md) are counterbalanced by the [Harness Engineer](./harness-engineer.md).

@@ -23,7 +23,7 @@ In some analogies related to agentic development, the human is described as *ste
 * **Harness engineering is automating the steering**.  It tells the agent when to go left or right and how to navigate from point A to point B.  
 * **Application architecture is like giving the agent better vision**.  Their workspace is more clear and the route to success is more evident.
 
-Another analogy I like to use is the [walk-run-rocket-into-space](./walk-run-rocket-into-space.md) analogy.  
+Another analogy I like to use is the [walk-run-wheels-rocket-into-space](./walk-run-wheels-rocket-into-space.md) analogy.  
 
 * The **harness engineer** is responsible for building a rocket boosted development pipeline (Speed).
 * The **application architect** is responsible for making sure the rocket boosted pipeline stays straight, stays grounded, and doesn't succumb to [lift](./lift.md) (Aerodynamics).

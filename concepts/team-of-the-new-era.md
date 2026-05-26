@@ -57,7 +57,7 @@ The engineers who lean into agentic development, the core of the modern software
 * They build features
 * They build infrastructure to support the application
 
-### The [Harness Engineer](./agentic-harness-architect.md)
+### The [Harness Engineer](./harness-engineer.md)
 
 * Capable of exceptionally abstract thinking
 * High order thinking
