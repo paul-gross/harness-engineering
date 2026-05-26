@@ -1,11 +1,11 @@
 # Agentic Development / Testing Loop
 
-```
+```text
 do {
     result = step();
     done = verify(result);
 } while (!done)
-``` 
+```
 
 Software development has largely operated on a [development/testing](./traditional-feedback-loops.md) loop since the beginning of it's inception.  It is the fundamental loop that allows us to achieve our goals.  Try something.  Did it work?  Yes -> Great, No -> Keep trying.
 
@@ -19,7 +19,7 @@ We model our agent behavior after our own, [I am the exemplar](/philosophy/i-am-
 
 The long-term vision of harness engineering should be to create extremely tight feedback loops between agents that build and agents that verify or evaluate.
 
-If we build out an entire feature set that is thousands of lines of code before we do any verification, we have historically been apt to realize a mistake along the way which would fundamentally challenge our approach. This is costly. The tighter the feedback loops, the more productive we became. 
+If we build out an entire feature set that is thousands of lines of code before we do any verification, we have historically been apt to realize a mistake along the way which would fundamentally challenge our approach. This is costly. The tighter the feedback loops, the more productive we became.
 
 Agents thrive on tight feedback loops.
 
@@ -31,7 +31,6 @@ Agents thrive on tight feedback loops.
 * Does it **work**? :thonking:  Can your agent [verify what it built works](./agent-verification.md)?  No -> Fix it
 
 At this point, our agents aren't able to handle extremely low latency real time operations.  They aren't cross referencing workspace level LSP type checking hints with the code they just wrote.  Maybe some are, but the agents aren't built to take in an event stream (this may be cost prohibitive based on how token caches work).  They're built to take in large blocks of context.  But that doesn't mean we can't aim for the same experience.
-
 
 ### Pondering about agent tooling
 
@@ -62,7 +61,7 @@ Getting an agent to write some code is trivial.  Anyone can do it.  Getting an a
 
 * **LLMs and Humans are extremely similar**: What makes humans more effective is very likely going to overlap with what makes LLMs more effective, you can't go wrong if you optimize for human efficiency (DX)
 * [Documentation optimized for skimmability](./readability-equals-skimmability.md):  Agents are nearly identical to humans who start a project on their first day, they can't learn your entire system and you don't want them to reverse engineer the entire thing, so you must have documentation designed to provide all of the answers
-* **Fundamental software / application principles**: 
+* **Fundamental software / application principles**:
 
 ## Testing
 

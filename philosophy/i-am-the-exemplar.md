@@ -43,4 +43,3 @@ The two most important reasons that we should model our harness after ourselves:
 Everybody should follow this philosophy and have confidence in how they work.  If you are a more junior developer, to the agent, you are still the exemplar.
 
 If you want the agent to do better, level up yourself: **improve yourself = improve the exemplar => improve the agent**.
-

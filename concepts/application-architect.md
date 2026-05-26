@@ -60,7 +60,7 @@ The codebase should be like a superconductive magnet for a high speed maglev tra
 * Reorganize concepts and structures within the codebase to maximize how easy it is to extend the code and review changes
 * Maximize testability and maintainability without sacrificing other runtime architectural concerns
 * Provide and maintain Exemplars in the codebase for agents to follow
-* Provide guidance and solutions to problems that the primary agentic developers encounter when constructing larger new systems 
+* Provide guidance and solutions to problems that the primary agentic developers encounter when constructing larger new systems
 * Create computational checks and inferential LLM prompts that autonomously reduce drift
 
 * Positive feedback loop experiments, such as [Forward Deployed Engineering](./forward-deployed-engineering.md) become more efficient
@@ -74,5 +74,3 @@ Organization of code has always been valuable to humans.  It allows developers t
 LLMs benefit from all of this.
 
 **Application Architecture is an incredibly important aspect of harness engineering**.  It produces code that is easy to change, and LLMs thrive on codebases that are easy to change.
-
-

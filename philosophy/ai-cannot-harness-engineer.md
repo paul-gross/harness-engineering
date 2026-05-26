@@ -23,5 +23,3 @@ Furthermore, humans are highly adept at spotting and discarding content that the
 I have tried using Opus 4.6 to help me write this content, but it does not work.  I reserve it for only the basics of quality checks.
 
 And yes, sometimes I do write like AI in that I write markdown files.  This is because I've learned that we are being exceptionally well trained at taking in, skimming, and reading markdown content that AI delivers.
-
-

@@ -17,4 +17,3 @@ Everything we want to do with an LLM that is advanced is a fight.  The most adva
 Ask it about how to write software well and it will tell you YAGNI and DRY.  It won't tell you about the main line or about how to manage dependencies.  It won't tell you that code that is highly depended on should be highly abstract.  It won't tell you that code that nothing depends on but has many dependencies can be highly concrete.  **It knows about those concepts, but they aren't tied deeply into its neural network**.
 
 If you ask your LLM about the stable abstractions, it will tell you.  If you ask your LLM to do TDD, it will tell you.  But by default, its core is probably modeled after **the average contribution on GitHub**.
-

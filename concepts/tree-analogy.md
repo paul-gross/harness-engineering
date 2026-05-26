@@ -63,5 +63,3 @@ Leave abstraction to abstractionists.
 ### Alignment
 
 A single leaf need not a wide trunk, but a wide trunk enables many leaves.
-
-

@@ -16,7 +16,6 @@ There is a large disconnect in what Harness Engineering is according to the most
 
 Keep this in mind as we explore how context engineering works in a *brownfield* environment.
 
-
 ### Breaking it down into parts
 
 Harness engineering is broken down into the following parts:
@@ -33,12 +32,11 @@ This is where the handoff occurs to the agent.  The human is no longer in the lo
 * **Review**: Human sign off
 * **Retrospective**: What worked?  How can the harness be improved?
 
-## Humans 
+## Humans
 
 ## [Planning](./planning.md)
 
 An overwhelming amount of people have adopted planning as a critical part of their workflow.  It's staggering how the entire industry seems aligned on it.  We can't type in a short prompt and expect the agents to work for hours while we sit back and watch YouTube videos on our second monitor.  I wish it were the case, but [prompt to plan to commit drift](./high-level-thinking-drift.md) works against us.
-
 
 ## Development, Evaluation, & Testing
 
@@ -70,10 +68,8 @@ If your plan is to create an video conference solution integration with a meetin
 
 Help guide the way the code is written.  Should the code be OOP or functional?  Should it follow SOLID princples or is it more tactical?  Should it abstract things out?  Should it build features completely or follow YAGNI?
 
-##### Principles to follow
-
-
 #### Reverse Engineering
+
 * **Fundamental software / application principles**: Weak application architecture is harder to understand and change -- more context and thinking is needed per task
 
 #### Execution
@@ -81,11 +77,13 @@ Help guide the way the code is written.  Should the code be OOP or functional?  
 * **Instructions / Checklists**: Common scenarios can be executed by agents -- Agents are exceptionally good at step by step instructions (creating worktrees, pull requests, and so on)
 
 ### During development: sensors, evaluation, building, testing, validating
+
 * **Compilation errors**: immediate feedback to the agent that can be fixed
 * **Linting errors**: immediate feedback to the agent that can be fixed
 * **Architectural assessments**: Subjective LLM driven assessments of the changes
 
 ### Verification: playwright testing, api testing, acceptance testing
+
 * **Playwright MCP / Browser Testing**: More subjective LLM driven assessment of acceptance criteria
 * **CURL / Command Line Testing**: Less subjective LLM driven assessment of acceptance criteria
 * **Automated Automated E2E Testing**: Even less subjective LLM driven assessment of acceptance criteria

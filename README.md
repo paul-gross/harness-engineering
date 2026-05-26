@@ -12,7 +12,6 @@ I think blog posts are a relic of the past.  So I thought I'd construct a living
 
 It's not designed like a traditional blog post, it's designed to be [skimmable](./concepts/readability-equals-skimmability.md), it's designed to allow you to take what you want, quickly, and leave the rest for another day.
 
-
 # Philosophy
 
 * [AI cannot harness engineer](./philosophy/ai-cannot-harness-engineer.md)

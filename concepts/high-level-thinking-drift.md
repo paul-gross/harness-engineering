@@ -35,4 +35,3 @@ It is easy to fall into the trap of using the LLM to generate the context that f
 * Iterate on the markdown files both strategically (how to divide and slice context) and tactically (how the context is written)
 * Iterate on your *skill* skill to get it to stub out something that requires less iteration
 * Eval it if you can -- have your LLM spawn 100 agents that all give the same basic task or question, ask how many responded correctly (It's really that simple).
-

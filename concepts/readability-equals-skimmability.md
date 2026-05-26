@@ -38,4 +38,3 @@ AI is amnesiac. It always starts with the same intuition.  Optimizing the inform
 * **Markdown patterns**: Patterns in the markdown structure itself can aid in skimmability (reused templates or section names provide general ideas on what to expect)
 * **Less is more**:  Context management was immediately identified as the name of the game and that is universally accepted
 * [Overloaded terms & thematic aliasing](./overloaded-terms.md): Software overloads many terms (like Architecture or Service) which cause confusion and misinterpretation
-

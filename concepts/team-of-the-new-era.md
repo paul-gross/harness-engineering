@@ -78,10 +78,9 @@ For lack of a better term, vibe coding can simply be the act of building softwar
 
 * The forward deployed engineer should be autonomous and be allowed to vibe code and push code that violates the invariants of the codebase
 * The forward deployed engineer is the spearhead of innovation, primarily building within client scoped feature flags
-* The harness engineer & architect should be 100% autonomous 
+* The harness engineer & architect should be 100% autonomous
 * The harness engineer is allowed to set & change the rules and invariants of the codebase
 * The harness engineer continuously monitors the invariants and refactors based on their judgement
 * The software engineers are focused on building features and infrastructure to support the system
 
 The technology organizations of the future will heavily rely on the expertise of the harness engineers.  It behooves leadership to give the utmost respect to this new role.  Find them and listen to them.
-

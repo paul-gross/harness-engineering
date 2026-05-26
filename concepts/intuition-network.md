@@ -29,4 +29,3 @@ A repository of information linked together through markdown links.  Designed to
 Blogs, Books, and Podcasts are great.  They really are.
 
 But what I believe we can achieve in the future is delivering complex understandings of systems or concepts as a git repository that people can consume via LLMs at their own pace.
-

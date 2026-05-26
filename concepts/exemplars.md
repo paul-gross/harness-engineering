@@ -25,5 +25,3 @@ Software is rarely purely consistent.  In a perfect world, an incredibly strong 
 ## Exemplars are hard
 
 Acknowledge that setting the vision and goal is hard.  It's not easy.  It requires a lot of understanding.  No matter how much you think you know about what is best, **it'll probably change** and that is okay.  Keep in mind, [you are the exemplar](../philosophy/i-am-the-exemplar.md).  Steer the LLMs to act like you, to do as you would do, and trust that it is right.
-
-

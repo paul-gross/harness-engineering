@@ -16,7 +16,6 @@ The combination of an Application Architect and a Harness Engineer is the superb
 
 Steve Yegge said it, "most people can't read."  You need to be able to read, and you need to be able to read exceptionally fast. It's all about how fast you can *learn*.  I don't mean skimming.  I'm talking about full understanding and comprehension of what is going on.
 
-
 ## What???
 
 In some analogies related to agentic development, the human is described as *steering the agent*.  I don't love the analogy, but I think it holds well.  If we build on it...  
@@ -28,4 +27,3 @@ Another analogy I like to use is the [walk-run-rocket-into-space](./walk-run-roc
 
 * The **harness engineer** is responsible for building a rocket boosted development pipeline (Speed).
 * The **application architect** is responsible for making sure the rocket boosted pipeline stays straight, stays grounded, and doesn't succumb to [lift](./lift.md) (Aerodynamics).
-

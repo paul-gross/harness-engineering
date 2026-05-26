@@ -45,4 +45,3 @@ If you are a leader and you don't have talent, hire an [Application Architect](.
 If you are a leader and you do have talent, **get educated on what it takes and help to educate your talent**.
 
 If you are talent, but your leader is singing the Death March tune, point them here or move on to where your talent is understood.
-

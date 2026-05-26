@@ -6,7 +6,7 @@ The problem is solved directly in front of the user.
 
 ## Optimizing time to market
 
-Historically, development took a long time, a lot of careful planning, a lot of thought, and was laced through process.  Measurements like cycle time emerged as popular ways to tell how fast ideas were turned into reality.  Books like Lean UX set the standard for constantly iterating on software to maximize action on user feedback. 
+Historically, development took a long time, a lot of careful planning, a lot of thought, and was laced through process.  Measurements like cycle time emerged as popular ways to tell how fast ideas were turned into reality.  Books like Lean UX set the standard for constantly iterating on software to maximize action on user feedback.
 
 LLMs allow us to condense the work down so small that it can be done in real time.
 
@@ -28,4 +28,3 @@ If FDEs are to be compared to Vibe Coders, then FDEs are apt to come from anywhe
 * Anyone who is tech savvy and can steer LLMs to write code that solves problems (this is a very large pool of people)
 
 The people working in the product space are likely to become FDEs very quickly.  We hear a lot about CPOs vibe coding and getting a lot of business value.  They are empowered to do this, and they should be acknowledged as [part of the team](./team-of-the-new-era.md).  Product engineers may also embrace this space, with a specialty of being able to act swiftly and work within the harness more effectively, resulting in fewer invariant violations.  Well tenured software engineers are likely more apt to segue into harness engineers or stay within the zone of solving complex problems with their strong system design skills.
-
