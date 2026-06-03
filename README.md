@@ -14,10 +14,14 @@ It's not designed like a traditional blog post, it's designed to be [skimmable](
 
 # Philosophy
 
+How I guide my writing and why I choose to view harness engineering in this way.
+
 * [AI cannot harness engineer](./philosophy/ai-cannot-harness-engineer.md)
 * [I am the Exemplar](./philosophy/i-am-the-exemplar.md)
 
-# Concepts
+# Theory / Concepts
+
+Insights and thoughts on the theory of harness engineering that can shape the way we build.
 
 * [Agent Managed Tooling](./concepts/agent-managed-tooling.md)
 * [Agent Verification](./concepts/agent-verification.md)
@@ -32,7 +36,8 @@ It's not designed like a traditional blog post, it's designed to be [skimmable](
 * [Harness Engineering](./concepts/harness-engineering.md)
 * [High level thinking drift](./concepts/high-level-thinking-drift.md)
 * [Intuition Network](./concepts/intuition-network.md)
-* [Iterative Planning](./concepts/planning.md)
+* [Iterative Agents](./concepts/iterative-agents.md)
+* [Iterative Planning](./concepts/iterative-planning.md)
 * [Lift](./concepts/lift.md)
 * [Overloaded terms](./concepts/overloaded-terms.md)
 * [Readability = Skimmability](./concepts/readability-equals-skimmability.md)
@@ -42,3 +47,7 @@ It's not designed like a traditional blog post, it's designed to be [skimmable](
 * [Tree analogy](./concepts/tree-analogy.md)
 * [Verify What It Builds Works](./concepts/verify-what-it-builds-works.md)
 * [Walk, Run, Wheels, Rocket into Space!](./concepts/walk-run-wheels-rocket-into-space.md)
+
+# Practical / Brownfield
+
+Applying harness engineering in a non-idyllic environment.
