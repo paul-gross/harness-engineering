@@ -38,7 +38,7 @@ The analogy breaks down when you try to cross physics over to software developme
 
 ## Rocket boosters, but not into space
 
-My personal goal is to have the most amazing rocket boosters on my agent harness that I can possibly get.  I want to get to a point where I can...
+My personal goal is to have the most amazing rocket boosters on my [agent harness](./harness-components.md) that I can possibly get.  I want to get to a point where I can...
 
 * Write minimal prompts
 * Have minimal tweaks to the planning process

@@ -40,7 +40,7 @@ The single agent pass in a typical coding harness will include research, develop
 
 * [Development / Testing Loop](./agentic-development-testing-loop.md): One agent implements, the same agent verifies via tests or agentic verification
 * **Development / LLM Code Review**: One agent implements, a separate agent reviews the output against the policy
-* **Harnessing / LLM Context review**: A human or agent adjusts the harness, a separate agent reviews the policy against the canon and tests the harness using evals
+* **Harnessing / LLM Context review**: A human or agent adjusts the harness, a separate agent reviews the policy against the [canon](./harness-components.md) and tests the harness using evals
 
 We can establish more process and policy to guide the agents towards our goals.  It need not be limited to development efforts alone either.  An agent could be tasked to release the software while another agent is tasked to evaluate if the software has been released.  An agent could validate a business plan against market research.  An agent could evaluate timeline expectations against scope and resource allocations.  
 

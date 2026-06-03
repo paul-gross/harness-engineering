@@ -32,6 +32,7 @@ Insights and thoughts on the theory of harness engineering that can shape the wa
 * [Exemplars](./concepts/exemplars.md)
 * [Forward Deployed Engineering](./concepts/forward-deployed-engineering.md)
 * [Grim Trajectory](./concepts/grim-trajectory.md)
+* [Harness components](./concepts/harness-components.md)
 * [Harness Engineer](./concepts/harness-engineer.md)
 * [Harness Engineering](./concepts/harness-engineering.md)
 * [High level thinking drift](./concepts/high-level-thinking-drift.md)

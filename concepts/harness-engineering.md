@@ -42,6 +42,24 @@ Keep this in mind as we explore how context engineering works in a *brownfield* 
 * Knowledge & Feedback Loops
 * Planning & Decision-Making
 
+### Breaking it down into components
+
+The ten dimensions of the harness model is a great assessment of capabilities, but the implementation breaks down into [distinct components](./harness-components.md).  Those components work to establish the capabilities listed above.
+
+* Application
+* Agent Harness
+* Domain Harness
+* Canon
+* Theory of harness engineering
+
+### Workspace & Workflow
+
+The workspace is an area that brings everything together.  It can be a git repository that is cloned down that straps the user into the harness.  Within the workspace, users are equipped with LLMs that have the capability to achieve various goals.  The harness equips the user.
+
+The workflow is what the user's bring to the harness to do their work.  Each user has a different agenda, a different style, a different approach to how they want to interact with the harness.  They may like to use a GUI.  They may like to use a terminal.  They may like to speak conversationally.  They may like to have their own flavor of how the system is bootstrapped and brought up in their local environment.
+
+The workspace is the platform where all things sit, the workflow is the processes that run within a workspace, utilizing a harness, to do work.
+
 ### In practice
 
 Most simply: Humans identify areas where agents could provide additional value and implement a change that utilizes agents for that task
