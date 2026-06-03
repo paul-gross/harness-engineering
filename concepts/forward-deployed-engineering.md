@@ -1,4 +1,4 @@
-# Forward Deployed Engineering
+# Forward deployed engineering
 
 I imagine myself sitting in the office or building of my client, building features out with them.  They tell me what they want to do, I feed it into the prompt, it whirrs and spins and tokenizes and plops out the code.  It works.  Ship it.
 
@@ -14,7 +14,7 @@ It's not new to be able to change an application in front of someone.  Many of u
 
 ## Sacrifice
 
-If forward deployed engineering is all about delivering value to the user as fast as possible, it doesn't need to concern itself as much with other aspects of the software, such as maintainability, extensibility, or readability.  Those architectural properties can ebb and flow.  The [harness engineer](./harness-engineer.md) and the modern software engineer can [refactor](./tech-debt.md) it later, as long as nobody [builds on top of the slop](./tech-debt.md).
+If forward deployed engineering is all about delivering value to the user as fast as possible, it doesn't need to concern itself as much with other aspects of the software, such as maintainability, extensibility, or readability.  Those architectural properties can ebb and flow.  The [harness engineer](./harness-engineer.md) and the modern software engineer can [refactor](../application-architecture/tech-debt.md) it later, as long as nobody [builds on top of the slop](../application-architecture/tech-debt.md).
 
 Consider it a temporary sacrifice for immediate value, a short term loan if you will.
 

@@ -1,10 +1,10 @@
-# Harness Engineering
+# Harness engineering
 
 The high level index about the hot topic of 2026: **Harness Engineering**.
 
 ## Introduction
 
-Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" and not end up on the [grim trajectory](./grim-trajectory.md).  Harness engineering shifts work done by humans to agents, evolving the human role into steering rather than *rowing*.
+Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" and not end up on the [grim trajectory](../practical/grim-trajectory.md).  Harness engineering shifts work done by humans to agents, evolving the human role into steering rather than *rowing*.
 
 ### Everything we read or hear about is greenfield
 
@@ -78,7 +78,7 @@ This is where the handoff occurs to the agent.  The human is no longer in the lo
 
 ## Development, Evaluation, & Testing
 
-Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself another question, "How do we get humans to write code effectively in our system?" but without the [grim trajectory](./grim-trajectory.md).  There are a lot of new ideas to explore with LLMs handling more and more, but the fundamentals are still the same as the way humans work.
+Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself another question, "How do we get humans to write code effectively in our system?" but without the [grim trajectory](../practical/grim-trajectory.md).  There are a lot of new ideas to explore with LLMs handling more and more, but the fundamentals are still the same as the way humans work.
 
 **LLMs and Humans are extremely similar**
 

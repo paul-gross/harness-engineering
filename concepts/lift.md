@@ -33,4 +33,4 @@ Getting air is not necessarily the same as accumulating tech debt, tech debt occ
 
 Strong agentic development architects will recognize the value in getting new functionality to the users.  With LLM generated code, this process can occur [at the frontline](./forward-deployed-engineering.md).  There is no business out there that doesn't want to get features out yesterday.
 
-As the codebase drifts due to engineers pushing code they have not reviewed or do not understand, it is simply a matter of prioritizing the process of regular flossing and maintenance as pattern of the software development process.  The [Grim Trajectory](./grim-trajectory.md) and [FDEs](./forward-deployed-engineering.md) are counterbalanced by the [Harness Engineer](./harness-engineer.md).
+As the codebase drifts due to engineers pushing code they have not reviewed or do not understand, it is simply a matter of prioritizing the process of regular flossing and maintenance as pattern of the software development process.  The [Grim Trajectory](../practical/grim-trajectory.md) and [FDEs](./forward-deployed-engineering.md) are counterbalanced by the [Harness Engineer](./harness-engineer.md).

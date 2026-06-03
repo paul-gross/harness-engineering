@@ -1,4 +1,4 @@
-# Walk, Run, Wheels, Rocket into Space!
+# Walk, run, wheels, rocket into space!
 
 The analogy is simple. First we crawl, then we walk, then we run, then we *sprint*.  You've heard it before.
 
@@ -29,7 +29,7 @@ As we go faster and faster with agentic development, we will feel [upward forces
 
 No matter what you are in this world, if you go fast enough you will experience lift.  It's not physics, not really, but you get the point.  There is a limit to how fast you can go before that force becomes your barrier.  One of the secondary responsibilities of Harness Engineering is to continually push the maximum velocity that the team can attain without lift.
 
-## [Architects and Harness Engineering](./architects-and-harness-engineering.md)
+## [Application architects and harness engineering](./application-architects-and-harness-engineering.md)
 
 * The [Harness Engineer](./harness-engineer.md) focuses on velocity.
 * The [Application Architect](./application-architect.md) focuses on aerodynamics.

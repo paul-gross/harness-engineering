@@ -1,4 +1,4 @@
-# Readability = Skimmability
+# Readability = skimmability
 
 Information digestion is the focus of optimization.
 

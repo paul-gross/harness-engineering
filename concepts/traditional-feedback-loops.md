@@ -1,4 +1,4 @@
-# Traditional Feedback Loops
+# Traditional feedback loops
 
 How we worked when we wrote code by hand.
 

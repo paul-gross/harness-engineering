@@ -1,4 +1,4 @@
-# Harness Engineer
+# Harness engineer
 
 The [harness](./harness-components.md) owner
 

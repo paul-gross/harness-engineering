@@ -1,10 +1,10 @@
-# Tech Debt
+# Tech debt
 
 That which supports something else with inherent flaws that, when corrected, warrant rewriting that something else.
 
 ## Misunderstood
 
-Everything tends to get thrown into a bucket and labeled tech debt.  Much like architecture, it is an [overloaded term](./overloaded-terms.md).  This can make things challenging for the software engineer as tech debt may have a dedicated budget.  It is especially challenging when product focused features are masqueraded as tech debt.
+Everything tends to get thrown into a bucket and labeled tech debt.  Much like architecture, it is an [overloaded term](../concepts/overloaded-terms.md).  This can make things challenging for the software engineer as tech debt may have a dedicated budget.  It is especially challenging when product focused features are masqueraded as tech debt.
 
 Ask yourself what tech debt *really is*.
 
@@ -48,7 +48,7 @@ So while it is true that we don't incur debt until we build on top of something 
 
 ## Dirty code is okay
 
-In the [tree analogy](./tree-analogy.md), features that rely on more core foundational parts of the application are easier to change.  The leaves of the tree can be dirty.  The code isn't reused, the concepts are distinct, and there is little need for abstraction.  Let [FDEs](./forward-deployed-engineering.md) push dirty leaves.
+In the [tree analogy](./tree-analogy.md), features that rely on more core foundational parts of the application are easier to change.  The leaves of the tree can be dirty.  The code isn't reused, the concepts are distinct, and there is little need for abstraction.  Let [FDEs](../concepts/forward-deployed-engineering.md) push dirty leaves.
 
 It's okay.
 
@@ -70,4 +70,4 @@ This is a lot of work, yes, but like most tech debt / refactoring it is a large 
 
 LLMs completely change the game when it comes to tackling tech debt.  You can start with having them tackle automated business testing (aka real end to end tests) first (often a technical debt item of many teams).  Then that will give you a way to score the refactor.
 
-This is one of the reasons that I believe the [Application Architect](./application-architect.md) should have more autonomy, they should be able to prioritize tackling tech debt that enables the agentic harness to stay grounded.
+This is one of the reasons that I believe the [Application Architect](../concepts/application-architect.md) should have more autonomy, they should be able to prioritize tackling tech debt that enables the agentic harness to stay grounded.

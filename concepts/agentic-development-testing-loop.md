@@ -1,4 +1,4 @@
-# Agentic Development / Testing Loop
+# Agentic development / testing loop
 
 ```text
 do {
@@ -57,7 +57,7 @@ How these translate to agent tools will be determined in the near future.
 
 ## Development
 
-Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" but ignore the [grim trajectory](./grim-trajectory.md).
+Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" but ignore the [grim trajectory](../practical/grim-trajectory.md).
 
 * **LLMs and Humans are extremely similar**: What makes humans more effective is very likely going to overlap with what makes LLMs more effective, you can't go wrong if you optimize for human efficiency (DX)
 * [Documentation optimized for skimmability](./readability-equals-skimmability.md):  Agents are nearly identical to humans who start a project on their first day, they can't learn your entire system and you don't want them to reverse engineer the entire thing, so you must have documentation designed to provide all of the answers

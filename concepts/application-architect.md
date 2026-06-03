@@ -1,4 +1,4 @@
-# Application Architect
+# Application architect
 
 The codeowner
 
@@ -31,11 +31,11 @@ Are you in this situation now?
 * Acknowledge that maybe you are the default, and leadership doesn't believe your ideas will bring results; **you may not really be what you think you are**.
 * Learn to make an impact as you go on your journey, always
 
-If the industry continues to suppress, [how will this be any different with LLMs](./grim-trajectory.md)?  *Why* would they now invest in productivity over feature velocity?
+If the industry continues to suppress, [how will this be any different with LLMs](../practical/grim-trajectory.md)?  *Why* would they now invest in productivity over feature velocity?
 
 ## Product / Engineering friction & application architects
 
-The struggle as an application architect will always be when they lack the autonomy to follow through on what they are accountable for.  In a world where every piece of work must be justified against KPIs relating to immeasurable outcomes, it can be challenging.  An application architect can scope out dozens of pieces of work that would improve feature velocity over time.  But if that work is [not prioritized over features](./grim-trajectory.md), you can't hold them accountable.  Not enabling individuals to autonomously prioritize their own productivity is a **leadership decision**, which then steals the accountability and ownership of the health of the application codebase.  It puts that onus on management, who know very little about and have little influence on the codebase directly.
+The struggle as an application architect will always be when they lack the autonomy to follow through on what they are accountable for.  In a world where every piece of work must be justified against KPIs relating to immeasurable outcomes, it can be challenging.  An application architect can scope out dozens of pieces of work that would improve feature velocity over time.  But if that work is [not prioritized over features](../practical/grim-trajectory.md), you can't hold them accountable.  Not enabling individuals to autonomously prioritize their own productivity is a **leadership decision**, which then steals the accountability and ownership of the health of the application codebase.  It puts that onus on management, who know very little about and have little influence on the codebase directly.
 
 You can't empirically measure feature velocity.  
 

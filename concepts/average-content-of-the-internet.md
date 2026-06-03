@@ -1,4 +1,4 @@
-# The average content of the internet
+# Average content of the internet
 
 AI is trained on data.  Where does that data come from?  The internet.  What is it?  It's *the internet*.  It's Reddit, it's Wikipedia, it's GitHub, it's Stack Overflow.  It's *internet content*, not *intelligent thought*.
 

@@ -1,4 +1,4 @@
-# Harness Engineering by Paul Gross
+# Harness engineering by Paul Gross
 
 A collection of thoughts, an [intuition network](./concepts/intuition-network.md) if you will, about agentic development.
 
@@ -8,47 +8,54 @@ I'm just another developer in the world who loves to build stuff.  Self-taught, 
 
 ## What is this, **really**?
 
-I think blog posts are a relic of the past.  So I thought I'd construct a living, ever-changing understanding of the world in a new format.
+I think blog posts are a going to be a relic of the past.  I wanted to construct a living, ever-changing understanding of the world in a new format.
 
 It's not designed like a traditional blog post, it's designed to be [skimmable](./concepts/readability-equals-skimmability.md), it's designed to allow you to take what you want, quickly, and leave the rest for another day.
 
-# Philosophy
+## [Harness engineering](./concepts/harness-engineering.md)
+
+### Philosophy
 
 How I guide my writing and why I choose to view harness engineering in this way.
 
 * [AI cannot harness engineer](./philosophy/ai-cannot-harness-engineer.md)
-* [I am the Exemplar](./philosophy/i-am-the-exemplar.md)
+* [I am the exemplar](./philosophy/i-am-the-exemplar.md)
 
-# Theory / Concepts
+### Theory / Concepts
 
 Insights and thoughts on the theory of harness engineering that can shape the way we build.
 
-* [Agent Managed Tooling](./concepts/agent-managed-tooling.md)
-* [Agent Verification](./concepts/agent-verification.md)
-* [Agentic Development / Testing Loop](./concepts/agentic-development-testing-loop.md)
-* [Application Architect](./concepts/application-architect.md)
-* [Architects and Harness Engineering](./concepts/architects-and-harness-engineering.md)
-* [The average content of the internet](./concepts/average-content-of-the-internet.md)
+* [Agent managed tooling](./concepts/agent-managed-tooling.md)
+* [Agent verification](./concepts/agent-verification.md)
+* [Agentic development / testing loop](./concepts/agentic-development-testing-loop.md)
+* [Application architect](./concepts/application-architect.md)
+* [Application architects and harness engineering](./concepts/application-architects-and-harness-engineering.md)
+* [Average content of the internet](./concepts/average-content-of-the-internet.md)
 * [Exemplars](./concepts/exemplars.md)
-* [Forward Deployed Engineering](./concepts/forward-deployed-engineering.md)
-* [Grim Trajectory](./concepts/grim-trajectory.md)
+* [Forward deployed engineering](./concepts/forward-deployed-engineering.md)
 * [Harness components](./concepts/harness-components.md)
-* [Harness Engineer](./concepts/harness-engineer.md)
-* [Harness Engineering](./concepts/harness-engineering.md)
+* [Harness engineer](./concepts/harness-engineer.md)
 * [High level thinking drift](./concepts/high-level-thinking-drift.md)
 * [Intuition Network](./concepts/intuition-network.md)
-* [Iterative Agents](./concepts/iterative-agents.md)
-* [Iterative Planning](./concepts/iterative-planning.md)
+* [Iterative agents](./concepts/iterative-agents.md)
+* [Iterative planning](./concepts/iterative-planning.md)
 * [Lift](./concepts/lift.md)
 * [Overloaded terms](./concepts/overloaded-terms.md)
-* [Readability = Skimmability](./concepts/readability-equals-skimmability.md)
+* [Readability = skimmability](./concepts/readability-equals-skimmability.md)
 * [Team of the new era](./concepts/team-of-the-new-era.md)
-* [Tech Debt](./concepts/tech-debt.md)
-* [Traditional Feedback Loops](./concepts/traditional-feedback-loops.md)
-* [Tree analogy](./concepts/tree-analogy.md)
-* [Verify What It Builds Works](./concepts/verify-what-it-builds-works.md)
-* [Walk, Run, Wheels, Rocket into Space!](./concepts/walk-run-wheels-rocket-into-space.md)
+* [Traditional feedback loops](./concepts/traditional-feedback-loops.md)
+* [Verify what it builds works](./concepts/verify-what-it-builds-works.md)
+* [Walk, run, wheels, rocket into space!](./concepts/walk-run-wheels-rocket-into-space.md)
 
-# Practical / Brownfield
+### Application Architecture & Harness Engineering
+
+How the quality of your codebase affects how LLMs work within it.
+
+* [Tech debt](./application-architecture/tech-debt.md)
+* [Tree analogy](./application-architecture/tree-analogy.md)
+
+### Practical / Brownfield
 
 Applying harness engineering in a non-idyllic environment.
+
+* [Grim trajectory](./practical/grim-trajectory.md)

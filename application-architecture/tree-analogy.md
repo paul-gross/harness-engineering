@@ -35,7 +35,7 @@ The principles that govern the software.
 * Separation of concerns: application, domain, web, integrations
 * Establishing and maintaining architectural boundaries & invariants
 * Correcting anti-patterns
-* Creating [exemplars](./exemplars.md) for others (agents and humans) to follow
+* Creating [exemplars](../concepts/exemplars.md) for others (agents and humans) to follow
 * Creating abstractions that simplify macro-level complexity concerns
 * Project organization, folder structure
 

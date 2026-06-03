@@ -1,4 +1,4 @@
-# Grim Trajectory
+# Grim trajectory
 
 In my experience, most technology organizations and software groups are generally in the same positive feedback loop due to excessive feature development focus.
 
@@ -40,7 +40,7 @@ Eventually, context limits and macro level complexity exceeds what an LLM can re
 
 ## How do we get out of the grim trajectory?
 
-If you are a leader and you don't have talent, hire an [Application Architect](./application-architect.md) and give them some autonomy.
+If you are a leader and you don't have talent, hire an [Application Architect](../concepts/application-architect.md) and give them some autonomy.
 
 If you are a leader and you do have talent, **get educated on what it takes and help to educate your talent**.
 

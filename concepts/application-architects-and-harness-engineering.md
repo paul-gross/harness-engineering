@@ -1,4 +1,4 @@
-# Application Architects and Harness Engineering
+# Application architects and harness engineering
 
 This new era of software development has new emerging skills that are needed.  They may overlap with traditional software development, but I think it is very likely the case that we will see a new role emerge.
 

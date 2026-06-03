@@ -1,4 +1,4 @@
-# Agent Managed Tooling
+# Agent managed tooling
 
 Can we automate the creation and management of the proprietary tools we scaffold to help us development?
 
