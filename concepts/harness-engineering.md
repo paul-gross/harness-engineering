@@ -1,24 +1,50 @@
 # Harness Engineering
 
-The high level index about the hot topic of 2026.
+The high level index about the hot topic of 2026: **Harness Engineering**.
 
 ## Introduction
 
-Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" but ignore the [grim trajectory](./grim-trajectory.md).
+Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" and not end up on the [grim trajectory](./grim-trajectory.md).  Harness engineering shifts work done by humans to agents, evolving the human role into steering rather than *rowing*.
 
 ### Everything we read or hear about is greenfield
 
-There is a large disconnect in what Harness Engineering is according to the most recent (few and far between) blog posts and podcasts and what it looks like in the real enterprise application space.  A few things to keep in mind.
+There is a large disconnect in what Harness Engineering is according to the most recent (as of spring of 2026) blog posts and podcasts and what it looks like in the real enterprise application space.  A few things to keep in mind.
 
 * The applications that are examples for harness engineering are built from the ground up with harness engineering
 * The applications are mostly *internal*, leading us to believe there is a more tolerable SLA, acceptance of downtime and bugs
 * The applications don't seem to be parts of a legacy system
 
-Keep this in mind as we explore how context engineering works in a *brownfield* environment.
+Keep this in mind as we explore how context engineering works in a *brownfield* environment.  The current narrative is around an idyllic environment.
 
 ### Breaking it down into parts
 
-Harness engineering is broken down into the following parts:
+[The Harness Model](https://handsonarchitects.com/blog/2026/the-harness-model-ai-engineering-maturity-matrix/) did a fantastic job breaking down the harness into multiple dimensions.  It does a much better job than I will do, so I will simply list the dimensions here as reference
+
+#### Foundation
+
+* Context Engineering
+* Team (Humans + Agents)
+
+#### Governance
+
+* Security & Trust
+* Architectural Governance
+
+#### Delivery
+
+* Human-Agent Interaction
+* Workflow & Process
+* Reliability & Operations
+
+#### Outcomes & Learning
+
+* Verification & Quality
+* Knoweledge & Feedback Loops
+* Planning & Decision-Making
+
+### In practice
+
+Most simply: Humans identify areas where agents could provide additional value and implement a change that utilizes agents for that task
 
 * **Humans**: Steering, guiding, context engineering, prompt engineering, system design
 * **Planning**: Taking an idea and refining it to be an input to the agent
@@ -31,12 +57,6 @@ This is where the handoff occurs to the agent.  The human is no longer in the lo
 
 * **Review**: Human sign off
 * **Retrospective**: What worked?  How can the harness be improved?
-
-## Humans
-
-## [Planning](./planning.md)
-
-An overwhelming amount of people have adopted planning as a critical part of their workflow.  It's staggering how the entire industry seems aligned on it.  We can't type in a short prompt and expect the agents to work for hours while we sit back and watch YouTube videos on our second monitor.  I wish it were the case, but [prompt to plan to commit drift](./high-level-thinking-drift.md) works against us.
 
 ## Development, Evaluation, & Testing
 
