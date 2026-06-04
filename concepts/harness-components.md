@@ -27,7 +27,7 @@ All domain harness traits are specific to the domain itself.  This includes your
 
 * **Tools**: Enable the agent to execute instructions
 * **MCP Integrations**: Enable the agent to reach external systems to acquire information
-* **Context**: Any information that is available to the agent via progressive disclosure (markdown, html, etc)
+* **Context**: Any information that is available to the agent via [progressive disclosure](./progressive-disclosure.md) (markdown, html, etc)
 
 The domain harness governs the application.  It contains everything agents need to know to manage the system.  It is the crystallization of all knowledge from all of the people working around that system.
 

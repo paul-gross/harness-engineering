@@ -45,7 +45,7 @@ The question of whether or not agents can [self manage and iterate on their own 
 I'm excited to see what new tools come that will aid in agentic development.
 
 * Error telemetry pushed from application into a local service that manages the information and injects it into the appropriate agent terminal process
-* Automatic scaffolding of APIs into markdown files for agent consumption (where agents are not trained to know the API internally)
+* Automatic scaffolding of APIs into [markdown files for agent consumption](./progressive-disclosure.md) (where agents are not trained to know the API internally)
 
 There are so many interesting ideas to explore!
 

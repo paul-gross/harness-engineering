@@ -41,6 +41,7 @@ Insights and thoughts on the theory of harness engineering that can shape the wa
 * [Iterative planning](./concepts/iterative-planning.md)
 * [Lift](./concepts/lift.md)
 * [Overloaded terms](./concepts/overloaded-terms.md)
+* [Progressive disclosure](./concepts/progressive-disclosure.md)
 * [Readability = skimmability](./concepts/readability-equals-skimmability.md)
 * [Team of the new era](./concepts/team-of-the-new-era.md)
 * [Traditional feedback loops](./concepts/traditional-feedback-loops.md)

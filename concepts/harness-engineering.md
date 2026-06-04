@@ -92,7 +92,7 @@ The agentic tool of choice will research the topic and gather additional context
 
 * The plan itself may include relevant topics (this can be done if you elect to do so as part of your planning process)
 * The CLAUDE.md or AGENTS.md file will be the primary entrypoint into the repository
-* Based on the task, the agent may load additional files that it is aware of, typically via markdown links
+* Based on the task, the agent may load additional files that it is aware of, typically via [markdown links](./progressive-disclosure.md)
 
 ##### [Documentation optimized for skimmability](./readability-equals-skimmability.md)
 
