@@ -30,6 +30,7 @@ Insights and thoughts on the theory of harness engineering that can shape the wa
 * [Agentic development / testing loop](./concepts/agentic-development-testing-loop.md)
 * [Application architect](./concepts/application-architect.md)
 * [Application architects and harness engineering](./concepts/application-architects-and-harness-engineering.md)
+* [Application, harness, workflow, & workspace](./concepts/application-harness-workflow-workspace.md)
 * [Average content of the internet](./concepts/average-content-of-the-internet.md)
 * [Exemplars](./concepts/exemplars.md)
 * [Forward deployed engineering](./concepts/forward-deployed-engineering.md)

@@ -52,7 +52,7 @@ The ten dimensions of the harness model is a great assessment of capabilities, b
 * Canon
 * Theory of harness engineering
 
-### Workspace & Workflow
+### [Workspace & Workflow](./application-harness-workflow-workspace.md)
 
 The workspace is an area that brings everything together.  It can be a git repository that is cloned down that straps the user into the harness.  Within the workspace, users are equipped with LLMs that have the capability to achieve various goals.  The harness equips the user.
 
