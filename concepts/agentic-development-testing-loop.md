@@ -13,7 +13,7 @@ In our day to day, we may experience this as changing some code and checking to 
 
 Agents operate the same way.  First build, then verify.  We know what happens when developers throw code over the wall, don't let your agents do it.
 
-We model our agent behavior after our own, [I am the exemplar](../philosophy/i-am-the-exemplar.md).
+We model our agent behavior after our own, [we are the exemplars](../philosophy/we-are-the-exemplars.md).
 
 ## The Goal: tight feedback loops
 
