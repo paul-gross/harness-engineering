@@ -2,6 +2,8 @@
 
 Agent native development has shifted the way developers work by injecting new ideas into daily tooling that don't fit the traditional mold.  Where does the harness go?  What is in the harness?  How do I manage the harness?
 
+Where [harness components](./harness-components.md) decomposes the harnessed application into its parts, this note zooms out a level to place the application, harness, workflow, and workspace relative to one another.
+
 ## Making the case: the harness belongs in its own area
 
 When we first step into harness engineering, Claude Code guides us to create a CLAUDE.md file that contains everything the agent needs to know to work on the repository.  This is a misleading start.  It puts us on a path that our application should be intertwined with the context that helps agents understand it.  The paved path is to put CLAUDE.md files in each project directory.  The downside is that these CLAUDE.md files defy [progressive disclosure](./progressive-disclosure.md) by forcing agents to read files that provide information that they may not be interested in.
