@@ -10,14 +10,23 @@ Applications are built, they start small.
 * Additional developers add significant overhead
 * The application becomes harder and harder to change
 
-Eventually, developer churn leads to feature velocity seizing and organizations shifting to significant support mode.
+Eventually, developer churn leads to feature velocity seizing up and organizations shifting to significant support mode.
 
 This is caused by a number of things, but the main reasons are as follows:
 
-* Lack of engineering talent (it's so rare people do not understand how to find it) who understand how to manage macro level complexity
-* Lack of understanding of who has talent leads to not giving the right people ownership and authority
-* Building on top of tech debt (note that it's only debt after you build on it)
-* Leadership dictating timelines and scope and developers not caring because they have no stake (they can just quit, why would they care?)
+* A culture where engineers change only what is necessary to check off the acceptance criteria (It works, but isn't right)
+  * Can be the case if change is too hard (big ball of mud architecture)
+  * Can be the case if risk of change is too high (lack of automated tests)
+  * This can often have a snowball effect
+* An overly optimistic emphasis on new capabilities and their connection to potential revenue
+* An inability to objectively measure the true feature velocity of a team
+  * It is hard to even understand if an investment pays dividends let alone convey it to leadership
+* Lack of engineering talent within the team who understands how to manage macro level complexity as they go
+  * Lack of understanding of who has talent can be the root cause
+  * Lack of providing the right people autonomy, ownership, and authority can contribute to this
+* Building on top of [tech debt](../application-architecture/tech-debt.md) (note that it's only debt after you build on it)
+* Leadership dictating timelines and scope and developers not caring because they have no stake
+  * Developers can move on to other projects or companies, they are not invested in the outcome
 
 ## Agentic Development does not change this
 
@@ -36,7 +45,23 @@ Applications are vibe coded, they start small...
 
 Eventually, context limits and macro level complexity exceeds what an LLM can reasonably work with and organizations shift to significant support mode.
 
-**This is the grim trajectory**: We have no reason to believe that the standard lifecycle we experience year after year will change with the addition of LLMs or Harness Engineering
+**This is the grim trajectory**: We have no reason to believe that the standard lifecycle we experience year after year will change with the addition of LLMs or harness engineering.
+
+## Signs you are on the grim trajectory
+
+Warning signs to look out for in your organization to know if things are spiraling:
+
+* Developers adopt tooling like Claude Code or Codex and utilize it to write code, but there is no feeling of improved pace
+* Code reviews remain as a largely manual task and become the source of complaint ("All I do is review AI slop")
+* Increased number of deployments that yield degradation or outages
+* Developers are still working on one task at a time (not two)
+
+Positive signs that developers are engaged and committed to improvements:
+
+* There is more work in progress and new bottlenecks that they raise complaints about
+* Developers are reporting that they are taking time to adjust their workflow
+* Work in progress increases while cycle time stays the same, **throughput goes up**
+* Large scale tech debt removal is occurring
 
 ## How do we get out of the grim trajectory?
 
