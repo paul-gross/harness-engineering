@@ -60,4 +60,5 @@ How the quality of your codebase affects how LLMs work within it.
 
 Applying harness engineering in a non-idyllic environment.
 
+* [Brownfield guide](./practical/brownfield-guide.md)
 * [Grim trajectory](./practical/grim-trajectory.md)

@@ -14,7 +14,7 @@ There is a large disconnect in what Harness Engineering is according to the most
 * The applications are mostly *internal*, leading us to believe there is a more tolerable SLA, acceptance of downtime and bugs
 * The applications don't seem to be parts of a legacy system
 
-Keep this in mind as we explore how context engineering works in a *brownfield* environment.  The current narrative is around an idyllic environment.
+Keep this in mind as we explore how context engineering works in a [*brownfield* environment](../practical/brownfield-guide.md).  The current narrative is around an idyllic environment.
 
 ### Breaking it down into parts
 
