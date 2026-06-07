@@ -4,7 +4,7 @@ Provide agents not with information, but instead with where to acquire informati
 
 ## Markdown links
 
-The simplest form of progressive disclosure is a [markdown link](./intuition-network.md).  The label describes the content and the link describes where it is.  When the agent deems that information as useful, they should read it and inject the document into context.
+The simplest form of progressive disclosure is a [markdown link](./digital-garden.md).  The label describes the content and the link describes where it is.  When the agent deems that information as useful, they should read it and inject the document into context.
 
 ## Skills
 

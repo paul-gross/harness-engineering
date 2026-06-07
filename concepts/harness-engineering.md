@@ -84,7 +84,7 @@ Getting an agent to write some code is trivial.  Anyone can do it.  Getting an a
 
 What makes humans more effective is very likely going to overlap with what makes LLMs more effective, you can't go wrong if you optimize for human efficiency (DX).  But we can do better.
 
-### Before development: guides, context, markdown, knowledge graphs
+### Before development: guides, context, markdown, digital gardens
 
 #### Research
 

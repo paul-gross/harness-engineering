@@ -49,7 +49,7 @@ This repository of information is the theory of harness engineering.  In the cur
 
 In the future, it is feasible that agents themselves will manage the theory of harness engineering.
 
-> **NOTE**: Much of the content within this [knowledge graph](./intuition-network.md) is derived from conversations with LLMs, not humans.  We are in an era (Spring 2026) where pushing the frontier of physics is done using LLMs and so we can find acceptance in embracing the use of LLMs to push the theory of harness engineering.
+> **NOTE**: Much of the content within this [digital garden](./digital-garden.md) is derived from conversations with LLMs, not humans.  We are in an era (Spring 2026) where pushing the frontier of physics is done using LLMs and so we can find acceptance in embracing the use of LLMs to push the theory of harness engineering.
 
 ## How the components relate
 
