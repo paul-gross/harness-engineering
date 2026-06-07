@@ -22,7 +22,7 @@ When we utilize a single agent in a conversation, we want to manage our context 
 * What kind of developer tooling do I set up?
 * ... How do I unit test this one function?
 
-This high level goal has too many pieces.  We cannot expect a single agent to do all of these pieces to our expectations.  It usually doesn't, and that results in inefficient iteration on the model output.  To remedy this, we could either break the problem down into smaller pieces or we could lean into our expectation that the agent will not fully achieve our goals.
+This high level goal has too many pieces.  [We cannot expect a single agent to do all of these pieces to our expectations](../philosophy/ai-cannot-harness-engineer-on-its-own.md).  It usually doesn't, and that results in inefficient iteration on the model output.  To remedy this, we could either break the problem down into smaller pieces or we could lean into our expectation that the agent will not fully achieve our goals.
 
 ### Iterating on a goal
 

@@ -38,7 +38,7 @@ At this point, our agents aren't able to handle extremely low latency real time 
 * Can we write an application that generates test fixtures for all of the various scenarios your application may see?
 * Can we make an agent that builds the applications listed above?
 * Can we build an agentic harness that helps keep the agents on track by using agents to build these useful agent tools?
-* Can we task an agent to build an agentic harness that enables all of these cool things?  [No, you cannot](../philosophy/ai-cannot-harness-engineer.md), agents are not capable of higher level thinking like that
+* Can we task an agent to build an agentic harness that enables all of these cool things?  [Not entirely](../philosophy/ai-cannot-harness-engineer-on-its-own.md), agents are not capable of higher level thinking like that
 
 The question of whether or not agents can [self manage and iterate on their own tooling](./agent-managed-tooling.md) is one I am currently exploring.  My efforts have been unsuccessful so far, but I will not give up.
 

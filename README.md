@@ -18,7 +18,7 @@ It's not designed like a traditional blog post, it's designed to be [skimmable](
 
 How I guide my writing and why I choose to view harness engineering in this way.
 
-* [AI cannot harness engineer](./philosophy/ai-cannot-harness-engineer.md)
+* [AI cannot harness engineer on its own](./philosophy/ai-cannot-harness-engineer-on-its-own.md)
 * [We are the exemplars](./philosophy/we-are-the-exemplars.md)
 
 ### Theory / Concepts

@@ -4,7 +4,7 @@ The high level index about the hot topic of 2026: **Harness Engineering**.
 
 ## Introduction
 
-Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" and not end up on the [grim trajectory](../practical/grim-trajectory.md).  Harness engineering shifts work done by humans to agents, evolving the human role into steering rather than *rowing*.
+Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" and not end up on the [grim trajectory](../practical/grim-trajectory.md).  Harness engineering shifts work done by humans to agents, evolving the human role into [steering rather than *rowing*](../philosophy/ai-cannot-harness-engineer-on-its-own.md).
 
 ### Everything we read or hear about is greenfield
 
