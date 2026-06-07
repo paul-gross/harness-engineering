@@ -46,7 +46,6 @@ Insights and thoughts on the theory of harness engineering that can shape the wa
 * [Readability = skimmability](./concepts/readability-equals-skimmability.md)
 * [Team of the new era](./concepts/team-of-the-new-era.md)
 * [Traditional feedback loops](./concepts/traditional-feedback-loops.md)
-* [Verify what it builds works](./concepts/verify-what-it-builds-works.md)
 * [Walk, run, wheels, rocket into space!](./concepts/walk-run-wheels-rocket-into-space.md)
 
 ### Application Architecture & Harness Engineering

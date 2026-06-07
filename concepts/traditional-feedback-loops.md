@@ -10,7 +10,7 @@ As an engineer, I would often write software on one screen and visually verify t
 
 ## The long-term vision
 
-The long-term vision of harness engineering should be to create extremely tight feedback loops between agents that build and agents that verify or evaluate.
+The long-term vision of harness engineering should be to create extremely tight feedback loops between agents that build and agents that [verify or evaluate](./agent-verification.md).
 
 ## Why tight loops matter
 
