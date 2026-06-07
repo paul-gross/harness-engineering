@@ -14,7 +14,7 @@ Iterative planning treats the goal as an artifact.  It can be a markdown file, a
 
 When we shift to iterative planning, we can start to create artifacts that are not just a single file or markdown file but instead a suite of information for the agent to consume.  These can be preserved after the fact and used to update product documentation or used for historical reasons (retrospectives for feedback).
 
-My preferred suite looks like the following:
+My preferred [suite](https://github.com/paul-gross/winter-product/blob/master/ai/overview-format.md) looks like the following:
 
 * **Business plan**: A non-technical document describing what we will build, why, and what the acceptance criteria is
 * **Technical approach**: A high level document showing contracts, interfaces, domain models, and workflows (no code)

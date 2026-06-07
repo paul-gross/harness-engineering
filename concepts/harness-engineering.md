@@ -58,7 +58,7 @@ The workspace is an area that brings everything together.  It can be a git repos
 
 The workflow is what the user's bring to the harness to do their work.  Each user has a different agenda, a different style, a different approach to how they want to interact with the harness.  They may like to use a GUI.  They may like to use a terminal.  They may like to speak conversationally.  They may like to have their own flavor of how the system is bootstrapped and brought up in their local environment.
 
-The workspace is the platform where all things sit, the workflow is the processes that run within a workspace, utilizing a harness, to do work.
+The workspace is the platform where all things sit, the workflow is the processes that run within a workspace, utilizing a harness, to do work.  [winter](https://github.com/paul-gross/winter) is a workspace framework that implements this — it straps the user into the harness and manages worktrees, environments, and agent tooling across a polyrepo application without bringing opinions on the workflow, harness, or canon.
 
 ### In practice
 

@@ -15,6 +15,8 @@ In short: An exemplar is a deliberately ultra maintained part of the code base t
 
 Point humans and LLMs at your exemplars to steer new development to the desired style and approach.  LLMs are much better at positive examples (DO this) than they are at negative examples (DONT do this)
 
+The same principle scales beyond a single class or file — an entire harness or workspace can serve as an exemplar, like [winter](https://github.com/paul-gross/winter).
+
 ## Comet tail of change
 
 Software is rarely purely consistent.  In a perfect world, an incredibly strong [Application Architect](./application-architect.md) is involved from the very beginning, and everything is *done right*.  In reality, projects are started as a proof of concept, they are *rushed*, and the engineers make mistakes as part of their career development (we all make mistakes, this is how we learn).  The scrappy startup project eventually struggles due to [tech debt](../application-architecture/tech-debt.md) or excessive [lift](./lift.md).  Talent is brought in to *make things better*.  They can't change everything overnight; they change things over time, leaving a tail of old patterns and concepts to die in closets and under floorboards.

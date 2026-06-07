@@ -46,6 +46,6 @@ We can establish more process and policy to guide the agents towards our goals. 
 
 ## Separation of specialty
 
-Within each process we can narrow our agent's agenda to be more specific in an effort to maximize the value of the result.  A code review may consist of checking for completeness, correctness, and adherence to standards or architectural taste.  By splitting the code review up into three separate agents, they can each hone in on the context that is relevant to their concerns and judge more accurately.
+Within each process we can narrow our agent's agenda to be more specific in an effort to maximize the value of the result.  A code review may consist of checking for completeness, correctness, and adherence to standards or architectural taste.  By splitting the code review up into [three separate agents](https://github.com/paul-gross/winter-workflow/blob/master/agents/README.md), they can each hone in on the context that is relevant to their concerns and judge more accurately.
 
 The first iteration does not need to have the full context of every aspect of the system (architecture, security, user personas, et al).  Specializing the first pass on the highest level of architectural scaffolding can save us a lot of wasted tokens.  We may be off the mark, but our process will iterate and move us towards that goal.

@@ -41,7 +41,7 @@ If the domain harness governs the application, the canon governs the domain harn
 
 The recursive nature of automated governance currently terminates at the Canon.  The Canon is self governing.
 
-> **NOTE**: Conceptually, this repository is an odd example of both the application and the theory of harness engineering -- it has its own agentic harness, its own workspace, and its own Canon that is derived from itself.
+> **NOTE**: Conceptually, this repository is an odd example of both the application and the theory of harness engineering -- it has its own agentic harness, its own workspace, and its own Canon that is derived from itself.  For a fuller, working example of these components in a real workspace, see [winter](https://github.com/paul-gross/winter).
 
 ### Theory of harness engineering
 

@@ -24,8 +24,8 @@ Maybe our core product is called "Teams."  You can imagine the frustration of wo
 
 An example speaks for itself
 
-* **Winter**: The name given to my workflow so I can then refer to it by name and the agent unmistakingly targets the workflow itself rather than the code
-* **Blizzard**: The name of the custom process used to spawn multiple agents (a team) and coordinate work based on our custom workflow
+* **[Winter](https://github.com/paul-gross/winter)** ❄️: The name given to my workflow so I can then refer to it by name and the agent unmistakingly targets the workflow itself rather than the code
+* **[Blizzard](https://github.com/paul-gross/winter-workflow/blob/master/skills/blizzard/SKILL.md)**: The name of the custom process used to spawn multiple agents (a team) and coordinate work based on our custom workflow
 * **Snowflake**: The name of the leader / coordinator of the blizzard
 
 This achieves the following:

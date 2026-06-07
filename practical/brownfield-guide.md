@@ -43,7 +43,7 @@ Effectiveness of an agent is improved dramatically by the capability of said age
 Developers will start to be blocked by wall time.  A single agent will work longer and leave the developer waiting.  Naturally, a developer will begin to run a second agent in parallel.  The first agent works while the second agent is dialed into their task.  When the first agent completes, the developer can review the output while the second agent works.  Running two agents in parallel greatly reduces the amount of time they are waiting.  Extending this to three, four, or five can improve productivity further, but dual agents is significant enough on its own.
 
 * Allow the application to be configured to run on any port or resource in their own isolated domain
-* Enable tools or context to enable LLMs to quickly create or destroy environments
+* Enable tools or context to enable LLMs to quickly [create or destroy environments](https://github.com/paul-gross/winter-service-tmux)
 * Absorb more E2E flows by keeping everything local
 
 Rich, local test data can become a large gap.  Enhancing test data management tooling starts to be appealing as agents would be able to setup complex scenarios for their own testing.

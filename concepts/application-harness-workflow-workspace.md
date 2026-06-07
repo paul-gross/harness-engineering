@@ -63,4 +63,4 @@ These questions begin to unfold:
 * How do we enable native code harness skills, rules, or MCPs for a given project?
 * How do we split the seam of harness, application, and workflow?
 
-These are all questions that are faced on this journey.  These are questions answered by a workspace framework like [winter](https://www.github.com/paul-gross/winter).
+These are all questions that are faced on this journey.  These are questions answered by a workspace framework like [winter](https://github.com/paul-gross/winter).
