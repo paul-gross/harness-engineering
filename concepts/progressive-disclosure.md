@@ -20,6 +20,6 @@ The table below outlines the five most important aspects of harness engineering 
 | --- | --- |
 | [Harness engineer](./harness-engineer.md) | When clarifying who owns the harness and how the human role shifts from rowing to steering. |
 | [Application architect](./application-architect.md) | When the quality of the codebase is what limits how well agents can work in it. |
-| [Agentic development / testing loop](./agentic-development-testing-loop.md) | When establishing how an agent builds, tests, and self-corrects a change end to end. |
+| [Agentic development / testing loop](./agentic-development-testing-loop.md) | When establishing how an agent builds, tests, and self-corrects a change end-to-end. |
 | [Agent verification](./agent-verification.md) | When deciding how an agent confirms its own work actually does what it should. |
 | [Exemplars](./exemplars.md) | When you need a deliberately maintained reference for agents (and humans) to imitate. |

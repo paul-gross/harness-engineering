@@ -1,16 +1,10 @@
 # We are the exemplars
 
-We follow our intuition in guiding agents through [harness engineering](../concepts/harness-engineering.md).
+We follow our intuition in guiding agents through [Harness engineering](../concepts/harness-engineering.md).  Our intuition is based on the things we have done to boost our teams and our own productivity.
 
-Our intuition is based on the things we have done to boost our teams and our own productivity.
+The way AI and humans build software has overlap. We should aim to start to build the harness that models our own development processes.  The future will tell us how to be better, but this is where we can start right now.
 
-The way AI and humans build software has significant amounts of overlap.
-
-We should aim to start to build the harness that models our own development processes.
-
-If it helped us, it should work for the agents.
-
-Whoever you are, treat yourself as the [exemplar](../concepts/exemplars.md) that your models should follow.
+If it helped us, it should help the agents. Whoever you are, treat yourself as the [Exemplar](../concepts/exemplars.md) that your models should follow.
 
 ## What?
 
@@ -20,9 +14,9 @@ Establish confidence in ourselves, be humble.  "We are the exemplars."
 
 ## Keep ego in check
 
-All of the experiences and successes I have had over the years give me confidence in the way I approach software development and writing code. My workflow and my practice is the exemplar I want AI agents to follow.  This isn't because I am the GOAT, it's because I truly do believe a harness modeled after the things I have done and the things the teams I've worked with have done is going to do well. I've always tried to push the bar a little bit higher.  I've tried to inspire engineers to grow, to challenge them, and to show them a little bit more of what is possible.  
+All of the experiences and successes I have had over the years give me confidence in the way I approach software development and writing code. My workflow and my practice is the exemplar I want AI agents to follow.  This isn't because I am the GOAT, it's because I truly do believe a harness modeled after the things I have done and the things the teams I've worked with have done is going to do well.
 
-I'm obsessed with DX & developer productivity.
+I've always tried to push the bar a little bit higher.  I've tried to inspire engineers to grow, to challenge them, and to show them a little bit more of what is possible.  I'm obsessed with DX & developer productivity.
 
 These are the traits that I feel strongly about.  
 
@@ -41,4 +35,4 @@ The two most important reasons that we should model our harness after ourselves:
 
 Everybody should follow this philosophy and have confidence in how they work.  If you are a more junior developer, to the agent, you are still the exemplar.
 
-If you want the agent to do better, level up yourself: **improve yourself = improve the exemplar => improve the agent**.
+If you want the agent to do better, level up yourself: **improve yourself => improve the exemplar => improve the agent**.

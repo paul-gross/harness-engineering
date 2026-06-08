@@ -15,16 +15,16 @@ The pure LLM approach is by far the simplest to create but the most expensive to
 
 ## Embracing agent verification
 
-Agent verification can be used on human created output or agent created output.  In either case, there is an undeniable effectiveness in terms of the cost to value ratio.  It's simple and cheap to ask an agent to review code, review documentation, review my book.  It's a much bigger ask to push a human to do it.
+Agent verification can be used on human created output or agent created output.  In either case, there is arguably an effectiveness in terms of the cost to value ratio.  It's simple and cheap to ask an agent to review code, review documentation, or review my essay on harness engineering.  It's a much bigger ask to push a human to do it.
 
-Agent created outputs tend to fall short.  We often see an agent get most of it right, but it's not _quite right_.  It's missing a small detail or it added an unnecessary embellishment (this is why I can't use AI to write this [digital garden](./digital-garden.md)).  Despite that, we can think of agent verification as a way to reduce the probability of an error, or reduce the probability of the unnecessary embellishment.
+Agent created outputs tend to fall short.  We often see an agent get most of it right, but it's not _quite right_.  It's missing a small detail or it added an unnecessary embellishment (this is why I can't use AI to write this [Digital garden](./digital-garden.md)).  Despite that, we can think of agent verification as a way to reduce the probability of an error, or reduce the probability of the unnecessary embellishment.
 
 **Most importantly**, apply that same acceptance to agent verification itself.  Just as agent output falls short, agent verification **will fall short too**.  If agent verification gets us 80% of the way, _humans are responsible for the last 20%_.
 
 ### Areas where agent verification has value
 
 * **Code review**: Agents can reason about the code and make judgements about complex concepts
-* **Context review**: Agents can read supporting markdown files in a [domain harness](./harness-components.md) and evaluate if they improve future agent work
+* **Context review**: Agents can read supporting markdown files in a [Domain harness](./harness-components.md) and evaluate if they improve future agent work
 * **Harness review**: Agents can evaluate the process of how agents have been working and make judgements about the agentic process itself
 * **Using the output**: Agents can interact with output (test it) to check if it works or not
 * **Reading logs**: Agents can read logs and other observability metrics to check if scenarios occurred or not
@@ -32,12 +32,12 @@ Agent created outputs tend to fall short.  We often see an agent get most of it 
 
 ## Big unlocks along the way
 
-Assume that the first step in the journey of [agentic development](./agentic-development-testing-loop.md) is to prompt an agent to build a piece of software from start to finish.  If the agent is only able to write code, but can't run it, it will be flying blind.  The more [immediate feedback](./traditional-feedback-loops.md) it receives and the faster it receives it, the more likely it will correct.
+Assume that the first step in the journey of [Agentic development](./agentic-development-testing-loop.md) is to prompt an agent to build a piece of software from start to finish.  If the agent is only able to write code, but can't run it, it will be flying blind.  The more [immediate feedback](./traditional-feedback-loops.md) it receives and the faster it receives it, the more likely it will correct.
 
 * Give the agent a way to compile the application
 * Give the agent a way to run the application
-* Give the agent a way to setup test data to create specific test cases
-* Give the agent a way to setup mock services to simulate scenarios
+* Give the agent a way to set up test data to create specific test cases
+* Give the agent a way to set up mock services to simulate scenarios
 
 Sometimes it isn't about giving agents a way to do something.  Sometimes it's about telling the agent to do something.
 

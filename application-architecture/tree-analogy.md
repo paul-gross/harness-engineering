@@ -35,11 +35,11 @@ The principles that govern the software.
 * Separation of concerns: application, domain, web, integrations
 * Establishing and maintaining architectural boundaries & invariants
 * Correcting anti-patterns
-* Creating [exemplars](../concepts/exemplars.md) for others (agents and humans) to follow
+* Creating [Exemplars](../concepts/exemplars.md) for others (agents and humans) to follow
 * Creating abstractions that simplify macro-level complexity concerns
 * Project organization, folder structure
 
-**Dependency management** is the heart of it
+**Dependency management** is the heart of it.
 
 ## So?
 
@@ -48,9 +48,13 @@ The principles that govern the software.
 * Your abstractionists and most senior engineers should be focused on extending the core and the trunk of the tree to balance it with the features (leaves)
 * Your junior engineers should be pruning the trees, enhancing features and enriching the user experience
 * Your mid-level engineers should be working more on the branches
-* "Full stack development" is **a leaf**, not the core
+* "Full-stack development" is **a leaf**, not the core.
 
-A common misconception is that the person who works on a story doesn't affect how long it takes.  This is a regular struggle in estimation sessions with people of varying skill levels.  It may take one person a day, it may take another person two weeks.  The reality is that the complexity of the task dictates the minimum amount of time it will take to achieve.  More complex tasks take less experienced developers more time to complete.  The flip side is that simple tasks cannot be completed more quickly by a more experienced developer.  This is why teams should **align the task** based on the **complexity of the work** and the **capabilities of the engineer**.
+A common misconception is that the person who works on a story doesn't affect how long it takes.  This is a regular struggle in estimation sessions with people of varying skill levels.  It may take one person a day, it may take another person two weeks.
+
+The reality is that the complexity of the task dictates the minimum amount of time it will take to achieve.  More complex tasks take less experienced developers more time to complete.  The flip side is that simple tasks cannot be completed more quickly by a more experienced developer.
+
+This is why teams should **align the task** based on the **complexity of the work** and the **capabilities of the engineer**.
 
 Leave abstraction to abstractionists.
 
@@ -62,4 +66,4 @@ Leave abstraction to abstractionists.
 
 ### Alignment
 
-A single leaf need not a wide trunk, but a wide trunk enables many leaves.
+A single leaf needs no wide trunk, but a wide trunk enables many leaves.

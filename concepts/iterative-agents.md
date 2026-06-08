@@ -30,7 +30,7 @@ In the above example, iteration is achieved by setting up policy and agentic pro
 
 ### Policy
 
-Any technical taste or invariant that we expect from the agent can be established as a standard, convention, or technical requirement inside of a technical document.  Any business invariants can live along side those technical invariants.  These policies are objective and factual -- they are either adhered to or they are not.  These policies can include anything from linting rules to agent facing markdown files.
+Any technical taste or invariant that we expect from the agent can be established as a standard, convention, or technical requirement inside of a technical document.  Any business invariants can live alongside those technical invariants.  These policies are objective and factual -- they are either adhered to or they are not.  These policies can include anything from linting rules to agent facing markdown files.
 
 What's important about policy is that it guides LLMs to know whether the goal is met and what needs to happen for that goal to be achieved.
 
@@ -38,9 +38,9 @@ What's important about policy is that it guides LLMs to know whether the goal is
 
 The single agent pass in a typical coding harness will include research, development, testing, and verification.  This is the most basic and least opinionated coding harness capability (as of spring of 2026).  Building processes around this is up to the harness engineer.  We can state to an agent to build the *target* using *a specific process* and it will follow the track laid on it.
 
-* [Development / Testing Loop](./agentic-development-testing-loop.md): One agent implements, the same agent verifies via tests or agentic verification
+* [Development / testing loop](./agentic-development-testing-loop.md): One agent implements, the same agent verifies via tests or agentic verification
 * **Development / LLM Code Review**: One agent implements, a separate agent reviews the output against the policy
-* **Harnessing / LLM Context review**: A human or agent adjusts the harness, a separate agent reviews the policy against the [canon](./harness-components.md) and tests the harness using evals
+* **Harnessing / LLM Context review**: A human or agent adjusts the harness, a separate agent reviews the policy against the [Canon](./harness-components.md) and tests the harness using evals
 
 We can establish more process and policy to guide the agents towards our goals.  It need not be limited to development efforts alone either.  An agent could be tasked to release the software while another agent is tasked to evaluate if the software has been released.  An agent could validate a business plan against market research.  An agent could evaluate timeline expectations against scope and resource allocations.  
 

@@ -7,13 +7,13 @@ do {
 } while (!done)
 ```
 
-Software development has largely operated on a [development/testing](./traditional-feedback-loops.md) loop since the beginning of its inception.  It is the fundamental loop that allows us to achieve our goals.  Try something.  Did it work?  Yes -> Great, No -> Keep trying.
+Software development has largely operated on a [Development/testing](./traditional-feedback-loops.md) loop since the beginning of its inception.  It is the fundamental loop that allows us to achieve our goals.  Try something.  Did it work?  Yes -> Great, No -> Keep trying.
 
 In our day to day, we may experience this as changing some code and checking to see if the API is still returning the wrong results.
 
 Agents operate the same way.  First build, then verify.  We know what happens when developers throw code over the wall, don't let your agents do it.
 
-We model our agent behavior after our own, [we are the exemplars](../philosophy/we-are-the-exemplars.md).
+We model our agent behavior after our own, [We are the exemplars](../philosophy/we-are-the-exemplars.md).
 
 ## The Goal: tight feedback loops
 
@@ -40,7 +40,7 @@ At this point, our agents aren't able to handle extremely low latency real time 
 * Can we build an agentic harness that helps keep the agents on track by using agents to build these useful agent tools?
 * Can we task an agent to build an agentic harness that enables all of these cool things?  [Not entirely](../philosophy/ai-cannot-harness-engineer-on-its-own.md), agents are not capable of higher level thinking like that
 
-The question of whether or not agents can [self manage and iterate on their own tooling](./agent-managed-tooling.md) is one I am currently exploring.  My efforts have been unsuccessful so far, but I will not give up.
+The question of whether or not agents can [self-manage and iterate on their own tooling](./agent-managed-tooling.md) is one I am currently exploring.  My efforts have been unsuccessful so far, but I will not give up.
 
 I'm excited to see what new tools come that will aid in agentic development.
 
@@ -57,7 +57,7 @@ How these translate to agent tools will be determined in the near future.
 
 ## Development
 
-Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" but ignore the [grim trajectory](../practical/grim-trajectory.md).
+Getting an agent to write some code is trivial.  Anyone can do it.  Getting an agent to write the right code in a complex application is difficult.  This is one of the main focal points of harness engineering.  Everyone has the same question: "How do we get the agents to write code effectively in our system?" Ask yourself a different question, "How do we get humans to write code effectively in our system?" but ignore the [Grim trajectory](../practical/grim-trajectory.md).
 
 * **LLMs and Humans are extremely similar**: What makes humans more effective is very likely going to overlap with what makes LLMs more effective, you can't go wrong if you optimize for human efficiency (DX)
 * [Documentation optimized for skimmability](./readability-equals-skimmability.md):  Agents are nearly identical to humans who start a project on their first day, they can't learn your entire system and you don't want them to reverse engineer the entire thing, so you must have documentation designed to provide all of the answers

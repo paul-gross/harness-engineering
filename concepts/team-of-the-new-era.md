@@ -4,7 +4,13 @@ Understanding the dynamics and shape of a modern engineering team.
 
 ## Less is more
 
-The concept of less-is-more in the software industry is not new (see the classic lichess vs chess dot com example).  Many software engineers have understood for a long time that simply adding more people to a project does not equate to improved feature velocity.  We see increased overhead, more conflicts, lack of ownership and accountability, planning headaches, etc, etc, etc.  Too much elbow bumping.  It doesn't matter how you describe it, there is always a tipping point where adding more developers will decrease the absolute feature velocity.  I'm not referring to decreasing the cost per feature, I'm referring to a decrease in total velocity.  Every developer beyond the first will decrease the cost per feature.  The second developer often decreases it dramatically.  A single developer project is the ultimate in feature cost efficiency.  It always has been.  It always will be.
+The concept of less-is-more in the software industry is not new (see the classic lichess vs chess dot com example).  Many software engineers have understood for a long time that simply adding more people to a project does not equate to improved feature velocity.  We see increased overhead, more conflicts, lack of ownership and accountability, planning headaches, and other issues.  Too much elbow bumping.
+
+There is tipping point where adding more developers will decrease the absolute feature velocity.  I'm not referring to decreasing the cost per feature, I'm referring to a decrease in total velocity.
+
+Typically, each developer beyond the first can decrease the cost per feature.  A single developer project seems to be the highest feature cost efficiency, but also the lowest for absolute feature delivery.
+
+(Laskowski & Michalak)[https://handsonarchitects.com/blog/2026/the-harness-model-ai-engineering-maturity-matrix/] indicate that team shape changes with harnessing from large specialist to small generalist per initiative to generalist across multiple initiatives.
 
 ## Giving space
 
@@ -22,13 +28,13 @@ Different aspects of an application can be distributed to different engineers as
 With harness engineering entering the scene, our understanding of space changes only in the volume of space needed.
 
 * **DevOps**: A single engineer can now manage DevOps and infrastructure across more projects
-* **Frontend vs Backend**: A single engineer can now more easily work full stack end to end with LLMs
+* **Frontend vs Backend**: A single engineer can now more easily work full-stack end-to-end with LLMs
 * **Integration**: A single engineer can now own integrations across a suite of applications and services
 * **Domains**: A single engineer can now parallelize work across multiple domains using multiple agents
 
 An LLM doesn't help a frontend engineer understand Kubernetes, nor does it help a backend engineer understand how other applications work.  The distribution is human centric, with LLMs being a force multiplier.
 
-What could be achieved with a team of 7 in the past can now be achieved by some individuals alone, assuming the application has a harness that is well maintained.  Such an individual would need to be exceptionally talented and well rounded in many areas.  In practice, a small team of 2 or 3 engineers with support from cross-application specialists would be a more realistic target to aim for.
+What could be achieved with a team of 7 in the past can now be achieved by some individuals alone, assuming the application has a harness that is well-maintained.  Such an individual would need to be exceptionally talented and well rounded in many areas.  In practice, a small team of 2 or 3 engineers with support from cross-application specialists would be a more realistic target to aim for.
 
 ## Specialization, autonomy, and ownership at the core
 
@@ -36,7 +42,7 @@ I've always believed that autonomy, specialization, and ownership have had the b
 
 The new roles seem to be moving towards:
 
-### An [FDE (Forward Deployed Engineer)](./forward-deployed-engineering.md)
+### An [FDE (Forward deployed engineer)](./forward-deployed-engineering.md)
 
 * Attentive to client or user needs and concerns
 * Exceptionally knowledgeable about patterns in applications (not the code, the user's perspective)
@@ -44,7 +50,7 @@ The new roles seem to be moving towards:
 
 The engineers who lean into the product mindset will gravitate towards forward deployed engineering.  They are the ones who can be given ambiguity and produce something of value.  They embrace agentic development but have little interest in building the harness itself.  They solve the user's problems in real time.
 
-* They focus exclusively on feature development and iteration
+* They focus on feature development and iteration on existing features
 
 ### The future software engineer
 
@@ -56,31 +62,44 @@ The engineers who lean into agentic development, the core of the modern software
 
 * They build features
 * They build infrastructure to support the application
+* They maintain the system's invariants, health, and important architectural traits
 
-### The [Harness Engineer](./harness-engineer.md)
+### The [Application architect](./application-architect.md)
 
-* Capable of exceptionally abstract thinking
-* High order thinking
-* Extremely strong intuition & ability to think big picture / future vision
-* Meta level thinking - thinking outside of the box, solving problems using derivatives
+* More capable of abstract thinking - an abstractionist
+* Tends to have more high order thinking
+* Clear vision of big picture / future state
 
-The engineers who obsess over developer experience and feature velocity.  These are the engineers who gain renown the fastest.  They are referred to as an [exemplar](./exemplars.md) of the software engineer.
+The engineers who break down concepts, categorize them, and simplify them.  Application architects improve complex solutions to simple problems and derive simple solutions for complex problems.
 
-* They improve the harness, automating more and more aspects of the software development process as the applications mature and age
-* They manage macro level complexity, focusing on containing drift (or tech debt, if you will) through constant restructuring
-* They build features
+* They manage macro level complexity, resolving tech debt
+* Work with harness engineer to improve feedforward and feedback mechanisms in the harness
+* Make general improvements acccording to the the tenets of the project, becoming a force multiplier for the team
+
+### The [Harness engineer](./harness-engineer.md)
+
+* Thinks in the meta - thinking outside of the box, solving problems using derivatives
+* Process orientated
+* Solution Architecture 
+
+The engineers who obsess over developer experience and feature velocity.  They see LLMs as a tool and respect that it takes them 80% of the way.  When it comes to the last 20%, they default to making adjustments to take it to 90, 95, or 100% over taking it to the finish line by hand.
+
+* Improve the harness, automating more and more aspects of the software development process as the applications mature and age
+* Connect developers, through the harness, to desparate systems via MCPs or CLIs for workflow improvements
+* Manage overarching systems that enable LLMs to oversee the deployed production application
+* They build features to evaluate the harness
 
 ## Breaking down roles and responsibilities
 
 Classic software development teams may have been created as a bag of people left to self organize.  This will always work but it may not be optimally efficient.  Typically we've seen team leads, tech leads, architects, and career rank added to the mix.  That's okay too, it works.  Or at the very least, it results in an application *eventually* being built.  After being a part of countless self organizing teams, I feel I have a good sense for what has helped things move forward and can extrapolate what will come in 2026 and beyond
 
-For lack of a better term, vibe coding can simply be the act of building software and embracing [lift](./lift.md).  Vibe coding should not be dismissed, it should be understood, acknowledged, and respected.
+For lack of a better term, vibe coding can simply be the act of building software and embracing [Lift](./lift.md).  Vibe coding should not be dismissed, it should be understood, acknowledged, and respected.
 
-* The forward deployed engineer should be autonomous and be allowed to vibe code and push code that violates the invariants of the codebase
+* The forward deployed engineer should have some autonomy and be allowed to vibe code and push code that violates the architectural invariants of the codebase
 * The forward deployed engineer is the spearhead of innovation, primarily building within client scoped feature flags
-* The harness engineer & architect should be 100% autonomous
-* The harness engineer is allowed to set & change the rules and invariants of the codebase
-* The harness engineer continuously monitors the invariants and refactors based on their judgement
+* The harness engineer & architect should have generous amounts of autonomy to give ample space
+* The application architect is allowed to set & change the rules and invariants of the codebase
+* The applicaiton architect continuously monitors the invariants and refactors based on their judgement (or if the harness engineer can supply data, that is better)
 * The software engineers are focused on building features and infrastructure to support the system
 
-The technology organizations of the future will heavily rely on the expertise of the harness engineers.  It behooves leadership to give the utmost respect to this new role.  Find them and listen to them.
+The technology organizations of the future will heavily rely on the expertise of the harness engineers.  It behooves leadership to give respect to this new role.  Find them and listen to them.  We should understand what they can do and the value it provides.

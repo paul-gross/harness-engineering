@@ -1,12 +1,12 @@
 # Iterative planning
 
-An overwhelming amount of people have adopted planning as a critical part of their workflow.  It's profound how the entire industry seems aligned on it.  We can't type in a short prompt and expect the agents to work for hours while we sit back and watch YouTube videos on our second monitor.  I wish it were the case, but [prompt to plan to commit drift](./high-level-thinking-drift.md) works against us.  Planning will always be a component of engineering, no matter how advanced your harness is.
+An overwhelming number of people have adopted planning as a critical part of their workflow.  It's profound how the entire industry seems aligned on it.  We can't type in a short prompt and expect the agents to work for hours while we sit back and watch YouTube videos on our second monitor.  I wish it were the case, but [prompt to plan to commit drift](./high-level-thinking-drift.md) works against us.  Planning is a component of engineering, seemingly no matter how advanced your harness is.
 
-## Inline planning vs Iterative planning
+## Inline planning vs iterative planning
 
 In a basic AI assisted terminal development workflow, the user may build the plan with the agent within the conversation.  The plan is a simple markdown file and the process is baked into the coding harness.  Once the plan looks good to the developer, the context is cleared and work begins.  This is **inline planning**.
 
-Once the scope of a unit of work exceeds a single conversation, an in-line plan is no long adequate.  That plan is ephemeral and it is no longer available.  The [second agent](./iterative-agents.md) may not understand the goals.
+Once the scope of a unit of work exceeds a single conversation, an in-line plan is no longer adequate.  That plan is ephemeral and it is no longer available.  The [second agent](./iterative-agents.md) may not understand the goals.
 
 Iterative planning treats the goal as an artifact.  It can be a markdown file, a Jira ticket, a GitHub issue, or an HTML file.  That artifact is carefully modified by the user and refined.  Now we can have multiple agents work on that artifact sequentially or concurrently.
 
@@ -16,7 +16,7 @@ When we shift to iterative planning, we can start to create artifacts that are n
 
 My preferred [suite](https://github.com/paul-gross/winter-product/blob/master/ai/overview-format.md) looks like the following:
 
-* **Business plan**: A non-technical document describing what we will build, why, and what the acceptance criteria is
+* **Business plan**: A non-technical document describing what we will build, why, and what the acceptance criteria are
 * **Technical approach**: A high level document showing contracts, interfaces, domain models, and workflows (no code)
 * **Phase documents**: A set of broken down individual pieces of work that contribute to the greater whole
 
@@ -24,6 +24,6 @@ Each layer of artifacts builds on the previous layer.  The technical approach is
 
 ## Iterating on an artifact suite
 
-Have a conversation with an agent about the plan.  Scrutinize the details, eliminate the drift, and pare it down so that it is concisely what is necessary.  The typical LLM will embellish product details with hallucinations.  It is always important to prune those out before work starts.  It is much easier to eliminate phantom acceptance criteria that is a single bullet point in a business plan than it is to assess what is wrong in the final code review.
+Have a conversation with an agent about the plan.  Scrutinize the details, eliminate the drift, and pare it down so that it is concisely what is necessary.  The typical LLM will embellish product details with hallucinations.  It is always important to prune those out before work starts.  It is much easier to eliminate phantom acceptance criteria that are a single bullet point in a business plan than it is to assess what is wrong in the final code review.
 
 Commit the artifact.  Keep it.  Put it in Jira or source control.  People can look back at it to understand what you did and why you did it.  Agents can evaluate the final output with the original artifacts to dig for product / planning harness improvements.

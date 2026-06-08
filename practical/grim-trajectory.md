@@ -24,11 +24,11 @@ This is caused by a number of things, but the main reasons are as follows:
 * Lack of engineering talent within the team who understands how to manage macro level complexity as they go
   * Lack of understanding of who has talent can be the root cause
   * Lack of providing the right people autonomy, ownership, and authority can contribute to this
-* Building on top of [tech debt](../application-architecture/tech-debt.md) (note that it's only debt after you build on it)
+* Building on top of [Tech debt](../application-architecture/tech-debt.md) (note that it's only debt after you build on it)
 * Leadership dictating timelines and scope and developers not caring because they have no stake
   * Developers can move on to other projects or companies, they are not invested in the outcome
 
-## Agentic Development does not change this
+## Agentic development does not change this
 
 If we substitute agentic development (AI code gen) for traditional hand written code, we have no reason to believe the trajectory of software development will change.  There is nothing magical about LLMs that will suddenly change the business organization.
 
@@ -65,7 +65,7 @@ Positive signs that developers are engaged and committed to improvements:
 
 ## How do we get out of the grim trajectory?
 
-If you are a leader and you don't have talent, hire an [Application Architect](../concepts/application-architect.md) and give them some autonomy.
+If you are a leader and you don't have talent, hire an [Application architect](../concepts/application-architect.md) and give them some autonomy.
 
 If you are a leader and you do have talent, **get educated on what it takes and help to educate your talent**.
 

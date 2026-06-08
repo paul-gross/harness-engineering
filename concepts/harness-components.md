@@ -1,6 +1,6 @@
 # Harness components
 
-The harness is a vague [overloaded term](./overloaded-terms.md) in the industry that encompasses a wide variety of traits.  The concept can be broken out into pieces, and those pieces are the _components_ of the harness.
+The harness is a vague [Overloaded term](./overloaded-terms.md) in the industry that encompasses a wide variety of traits.  The concept can be broken out into pieces, and those pieces are the _components_ of the harness.
 
 ## Five components of a harnessed application
 
@@ -27,7 +27,7 @@ All domain harness traits are specific to the domain itself.  This includes your
 
 * **Tools**: Enable the agent to execute instructions
 * **MCP Integrations**: Enable the agent to reach external systems to acquire information
-* **Context**: Any information that is available to the agent via [progressive disclosure](./progressive-disclosure.md) (markdown, html, etc)
+* **Context**: Any information that is available to the agent via [Progressive disclosure](./progressive-disclosure.md) (markdown, html, etc)
 
 The domain harness governs the application.  It contains everything agents need to know to manage the system.  It is the crystallization of all knowledge from all of the people working around that system.
 
@@ -39,17 +39,17 @@ If the domain harness governs the application, the canon governs the domain harn
 * **Context Management**: Ensure the domain harness is complete and correct
 * **Feedback Processing**: Enable users to provide feedback that shapes the harness
 
-The recursive nature of automated governance currently terminates at the Canon.  The Canon is self governing.
+The recursive nature of automated governance currently terminates at the canon.  The canon is self-governing.
 
-> **NOTE**: Conceptually, this repository is an odd example of both the application and the theory of harness engineering -- it has its own agentic harness, its own workspace, and its own Canon that is derived from itself.  For a fuller, working example of these components in a real workspace, see [winter](https://github.com/paul-gross/winter).
+> **NOTE**: Conceptually, this repository is an odd example of both the application and the theory of harness engineering -- it has its own agentic harness, its own workspace, and its own canon that is derived from itself.  For a fuller, working example of these components in a real workspace, see [winter](https://github.com/paul-gross/winter).
 
 ### Theory of harness engineering
 
-This repository of information is the theory of harness engineering.  In the current state (Spring of 2026), the theory of harness engineering is 100% human.  We theorize, we explore concepts, and we make changes to our Canon, to our Domain Harness, and to our Agent Harness.
+This repository of information is the theory of harness engineering.  In the current state (Spring of 2026), the theory of harness engineering is 100% human.  We theorize, we explore concepts, and we make changes to our canon, to our domain harness, and to our agent harness.
 
 In the future, it is feasible that agents themselves will manage the theory of harness engineering.
 
-> **NOTE**: Much of the content within this [digital garden](./digital-garden.md) is derived from conversations with LLMs, not humans.  We are in an era (Spring 2026) where pushing the frontier of physics is done using LLMs and so we can find acceptance in embracing the use of LLMs to push the theory of harness engineering.
+> **NOTE**: Much of the content within this [Digital garden](./digital-garden.md) is derived from conversations with LLMs, not humans.  We are in an era (Spring 2026) where pushing the frontier of physics is done using LLMs and so we can find acceptance in embracing the use of LLMs to push the theory of harness engineering.
 
 ## How the components relate
 
@@ -57,11 +57,11 @@ The relationships between the components resemble the same type of structures th
 
 * **Application**: Represents the core target of the model
   * The application is agnostic to all harness components
-* **Agent Harness**: Exists independently and fulfills the contracts that we expect (managing the agents)
-* **Domain Harness**:  Depends on the Agent Harness interface, the Application, and the Canon
+* **Agent harness**: Exists independently and fulfills the contracts that we expect (managing the agents)
+* **Domain harness**:  Depends on the agent harness interface, the application, and the canon
   * Knows about the concepts that exist within Claude Code, Codex, or OpenCode, but it doesn't know about the details
   * Has intimate coupling to the application
-  * Aware of the guiding principles of the Canon
+  * Aware of the guiding principles of the canon
 * **Canon**:  Exists independently and provides the principles and rules for any domain harness to follow
   * Enables and guides **workflows** that enable autonomous agent harness improvements
   * Built from the theory of harness engineering

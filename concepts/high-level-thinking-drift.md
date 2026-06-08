@@ -1,6 +1,6 @@
 # High level thinking drift
 
-The act of giving an agent an extremely high level prompt will always produce a wildly drifted output
+The act of giving an agent an extremely high level prompt will produce a drifted output.
 
 ## What?
 
@@ -23,15 +23,15 @@ Now that you have your agentic harness, you start to feed it features.  That one
 
 The above should give you a basic understanding of how a small prompt with high expectations can often go off the rails.  I've tried to use AI to create *things* that AI uses to create *more things* and it was a struggle.  Eventually I opened a conversation with Opus about it and it was actually great at explaining what was going on.  Drift.  The imperfections and hallucinations build up over iterations of AI refinement.  This is why [AI cannot harness engineer on its own](../philosophy/ai-cannot-harness-engineer-on-its-own.md).  The more high level instructions we give it, without steering, the more *grey* it becomes.
 
-Grey isn't even a great term for it.  I can't describe it any other way than *Drift*.  It's a great term.
+Grey isn't even a great term for it.  I can't describe it any other way than *Drift*.
 
-Going more high level with an LLM isn't always the answer.  Instead, try going more *horizontal*.  Don't give it an concept and expect to get 20 systems out of it.  Give it 20 concepts to get 20 systems out of it *and steer it*
+Going more high level with an LLM isn't always the answer.  Instead, try going more *horizontal*.  Don't give it a concept and expect to get 20 systems out of it.  Give it 20 concepts to get 20 systems out of it *and steer it*
 
-### AI Generated markdown files & drift
+### AI-generated markdown files & drift
 
-It is easy to fall into the trap of using the LLM to generate the context that feeds back into the LLM.  It's quick and it seems to have quick wins.  But [LLM Generated markdown files actually hurt performance](https://arxiv.org/abs/2602.11988).
+It is easy to fall into the trap of using the LLM to generate the context that feeds back into the LLM.  It's quick and it seems to have quick wins.  Beware, [LLM-generated markdown files may not be the answer](https://arxiv.org/abs/2602.11988).  This area is not thoroughly researched.  The research shows even human curated context files may not be the answer.  I believe we should take a different research approach to know more about this territory.  We should be creating large quantities of different types of context files and evaluating them based on how the models perform.
 
 * Use LLMs to stub out *something* that gives you a starting point for a conversation with an LLM
 * Iterate on the markdown files both strategically (how to divide and slice context) and tactically (how the context is written)
-* Iterate on your *skill* skill to get it to stub out something that requires less iteration
-* Eval it if you can -- have your LLM spawn 100 agents that all give the same basic task or question, ask how many responded correctly (It's really that simple).
+* Iterate on your processes to get it to stub out something that requires less iteration
+* Eval it if you can -- have your LLM spawn 100 agents that all give the same basic task or question, ask how many responded correctly (It's can be that simple).

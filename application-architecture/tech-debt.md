@@ -4,7 +4,7 @@ That which supports something else with inherent flaws that, when corrected, war
 
 ## Misunderstood
 
-Everything tends to get thrown into a bucket and labeled tech debt.  Much like architecture, it is an [overloaded term](../concepts/overloaded-terms.md).  This can make things challenging for the software engineer as tech debt may have a dedicated budget.  It is especially challenging when product focused features are masqueraded as tech debt.
+Everything tends to get thrown into a bucket and labeled tech debt.  Much like architecture, it is an [Overloaded term](../concepts/overloaded-terms.md).  This can make things challenging for the software engineer as tech debt may have a dedicated budget.  It is especially challenging when product focused features are masqueraded as tech debt.
 
 Ask yourself what tech debt *really is*.
 
@@ -38,7 +38,11 @@ This is a simple example.  Another example of something that isn't really tech d
 * You use the algorithm to determine how to reprioritize items in a list
 * The algorithm is 1500 lines of code in one giant function
 
-That function exists in one class.  Nothing depends on it.  It's **dirty**, but it's not debt.  If you want to fix it, you do not have to change anything else outside of that class.  You could argue that you must repay the debt to have maintainability.  Or you could argue that 1400 of the 1500 lines of code depend on the 100 lines of code you need to modify, so those have to change too.  I won't debate it, I'm merely attempting to illustrate that some things are not tech debt, but rather a piece of code that hasn't been iterated on in the process of *make it work, make it right, make it fast*.
+That function exists in one class.  Nothing depends on it.  It's **dirty**, but it's not debt.  If you want to fix it, you do not have to change anything else outside of that class.
+
+You could argue that you must repay the debt to have maintainability.  Or you could argue that 1400 of the 1500 lines of code depend on the 100 lines of code you need to modify, so those have to change too.
+
+I won't debate it, I'm merely attempting to illustrate that some things are not tech debt, but rather a piece of code that hasn't been iterated on in the process of *make it work, make it right, make it fast*.
 
 ## Inherent & inferred dependencies
 
@@ -48,7 +52,7 @@ So while it is true that we don't incur debt until we build on top of something 
 
 ## Dirty code is okay
 
-In the [tree analogy](./tree-analogy.md), features that rely on more core foundational parts of the application are easier to change.  The leaves of the tree can be dirty.  The code isn't reused, the concepts are distinct, and there is little need for abstraction.  Let [FDEs](../concepts/forward-deployed-engineering.md) push dirty leaves.
+In the [Tree analogy](./tree-analogy.md), features that rely on more core foundational parts of the application are easier to change.  The leaves of the tree can be dirty.  The code isn't reused, the concepts are distinct, and there is little need for abstraction.  Let [FDEs](../concepts/forward-deployed-engineering.md) push dirty leaves.
 
 It's okay.
 
@@ -60,14 +64,14 @@ Just don't build on top of those leaves, *push the functionality up into the bra
 
 ## Tackling tech debt
 
-This really does deserve its own section. Tackling tech debt in the age of LLMs is wildly different than it has ever been before.  LLMs do exceptionally well at contained problems where there are existing specifications.  Rewriting a browser or C++ compiler is inherently easy, which is why those were chosen as the large projects for harness engineering to begin with.  Taking ambiguous high level product requirements that have no technical specification and making an application is harder.  Rewriting an API in another language.
+This really does deserve its own section. Tackling tech debt in the age of LLMs is wildly different than it has ever been before.  LLMs do well at contained problems where there are existing specifications.  Rewriting a browser or C++ compiler is achievable, which is why those were chosen as the large projects for harness engineering to begin with.  Taking ambiguous high level product requirements that have no technical specification and making an application is harder.  Rewriting an API in another language.
 
 Technical debt is often changing only the code while maintaining an existing specification.  Some specifications within an area can be changed, but those should be anchored to some other higher level specifications that will not be changed.  LLMs can continuously reassess the original specification (the code before the refactor) to understand the end goal.
 
-Imagine a simple prompt:  Remove tailwind and replace it with custom CSS
+Imagine a simple prompt:  Remove Tailwind and replace it with custom CSS.
 
 This is a lot of work, yes, but like most tech debt / refactoring it is a large amount of work for a small conceptual change.  This is the opposite of feature development, where large amounts of information may be needed to be given to the LLM to make smaller code changes.
 
-LLMs completely change the game when it comes to tackling tech debt.  You can start with having them tackle automated business testing (aka real end to end tests) first (often a technical debt item of many teams).  Then that will give you a way to score the refactor.
+LLMs change the game when it comes to tackling tech debt.  You can start with having them tackle automated business testing (aka real end-to-end tests) first (often a technical debt item of many teams).  Then that will give you a way to score the refactor.
 
-This is one of the reasons that I believe the [Application Architect](../concepts/application-architect.md) should have more autonomy, they should be able to prioritize tackling tech debt that enables the agentic harness to stay grounded.
+This is one of the reasons that I believe the [Application architect](../concepts/application-architect.md) should have more autonomy, they should be able to prioritize tackling tech debt that enables the agentic harness to stay grounded.
