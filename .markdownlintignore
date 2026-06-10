@@ -1,0 +1,3 @@
+node_modules
+# Generated experiment artifacts are raw data — never lint-fix them.
+experiments/*/results/raw/
