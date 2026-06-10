@@ -29,3 +29,4 @@ Measures whether conceptual drift compounds across the planning artifact layers 
 | --- | --- | --- | --- | --- | --- |
 | run-1 | 2026-06-09 | claude-sonnet-4-6 | 5 | 3 | H1 supported (94→86→86%, additions 5.4→9.4); H2 not supported at depth — gate ratchets. [Report](./results/run-1-report.md) |
 | run-2 | 2026-06-09 | claude-haiku-4-5 | 10 | 3 | Haiku drifts less than Sonnet at every layer (99→97→88%); gate works at depth (96% vs 88%). Haiku-grades-Haiku confound noted. [Report](./results/run-2-report.md) |
+| run-2 re-judge | 2026-06-10 | writers claude-haiku-4-5, extractors claude-sonnet-4-6 | 10 (reused artifacts) | 3 | Haiku judge was +5–15 pts lenient. Survival gap vs Sonnet collapses (94→87→81%); lower-additions finding survives (3.2→6.9 vs 5.4→9.4). Gate effect at depth collapses (81% vs 81%) but the per-claim ratchet replicates run-1. [Report](./results/run-2-report.md) |

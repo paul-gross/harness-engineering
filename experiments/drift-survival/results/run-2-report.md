@@ -54,8 +54,37 @@ Proposed mechanism, visible in the artifacts: Haiku copies phrasing nearly verba
 
 **Signature partially replicates across models.** The NFR (C10) is again the biggest casualty (4 absent + 2 contested of 10 ungated) and "owner only" again weakens (C5, 4/10 mutated). But the retry off-by-one that infected most Sonnet chains barely appears (C7/C8 ≈ clean) — Haiku transcribes numbers it does not paraphrase.
 
-**Confound to discharge before trusting the cross-run comparison.** Both the writers and the extractor changed between runs. A more lenient extractor inflates survival; control and agreement prove consistency, not strictness. Decisive check, no chain re-runs needed: re-extract run-2's on-disk artifacts with Sonnet extractors and re-score.
+**Confound to discharge before trusting the cross-run comparison.** Both the writers and the extractor changed between runs. A more lenient extractor inflates survival; control and agreement prove consistency, not strictness. Decisive check, no chain re-runs needed: re-extract run-2's on-disk artifacts with Sonnet extractors and re-score. → Done; see below.
+
+## Sonnet re-extraction (instrument check, 2026-06-10)
+
+The same 60 run-2 artifacts (plus seed control) were re-extracted with **claude-sonnet-4-6** extractors, K=3 — same prompts, same scorer, only the judge changed. Raw records in `raw/run-2-sonnet-extraction/extractions.json`. Instrument healthy under the new judge too: control 100%, agreement 94–99%.
+
+**Same artifacts, two judges — the Haiku grader was lenient, increasingly so with depth:**
+
+| Survival | plan | approach | phases |
+| --- | --- | --- | --- |
+| ungated, Haiku judge | 99% | 97% | 88% |
+| ungated, Sonnet judge | 94% | 87% | 81% |
+| gated, Haiku judge | 100% | 99% | 96% |
+| gated, Sonnet judge | 94% | 89% | 81% |
+
+Leniency ranged from +5 (plan) to +15 points (gated phases). The Haiku judge systematically read gate-corrected restatements as `present` where the Sonnet judge scored `mutated`/`absent`.
+
+**Verdict on "Haiku drifts less": collapses on survival, survives on additions.** Apples-to-apples (Sonnet judge on both writers' artifacts):
+
+| Ungated, Sonnet judge | plan | approach | phases | additions (plan→phases) |
+| --- | --- | --- | --- | --- |
+| Sonnet writers (run-1) | 94% | 86% | 86% | 5.4 → 9.4 |
+| Haiku writers (run-2) | 94% | 87% | 81% | 3.2 → 6.9 |
+
+Survival is indistinguishable at plan/approach and slightly *worse* for Haiku at phases (81 vs 86, near the ~6% noise floor). The headline survival gap was instrument artifact. The additions gap is real: Haiku embellishes ~35% less at every layer — embellishment and claim fidelity are separable axes.
+
+**Verdict on "the gate works at depth": collapses overall, but the ratchet replicates exactly.** Under the Sonnet judge, gated and ungated phases both land at 81%. Per-claim, the same cancellation seen in run-1 reappears: the gate rescues C5 owner-only (8/10 vs 4/10 ungated) while killing C10 the NFR (2/10 vs 4/10) and C14 the feature flag (5/10 vs 9/10). Two runs, two writer models, one judge — the gate consistently redistributes drift rather than eliminating it, defending whatever its reference layer preserved and enforcing whatever it lost.
+
+**Method lesson:** never let the instrument change with the phenomenon. The Haiku-judge numbers above are retained for the leniency measurement only; cross-run claims should cite Sonnet-judge numbers.
 
 ## Run metadata
 
 * Date: 2026-06-09, model: claude-haiku-4-5 (all roles), N=10 chains/arm, K=3 votes, 273 agents, ~4.4M subagent tokens, 7.7 min wall.
+* Sonnet re-extraction: 2026-06-10, claude-sonnet-4-6 extractors, K=3, 183 agents (151 cached from the aborted 2026-06-09 attempt via workflow resume), ~0.5M new subagent tokens.
