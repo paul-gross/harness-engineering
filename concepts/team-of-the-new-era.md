@@ -10,7 +10,7 @@ There is tipping point where adding more developers will decrease the absolute f
 
 Typically, each developer beyond the first can decrease the cost per feature.  A single developer project seems to be the highest feature cost efficiency, but also the lowest for absolute feature delivery.
 
-(Laskowski & Michalak)[https://handsonarchitects.com/blog/2026/the-harness-model-ai-engineering-maturity-matrix/] indicate that team shape changes with harnessing from large specialist to small generalist per initiative to generalist across multiple initiatives.
+[Laskowski & Michalak](https://handsonarchitects.com/blog/2026/the-harness-model-ai-engineering-maturity-matrix/) indicate that team shape changes with harnessing from large specialist to small generalist per initiative to generalist across multiple initiatives.
 
 ## Giving space
 
@@ -80,7 +80,7 @@ The engineers who break down concepts, categorize them, and simplify them.  Appl
 
 * Thinks in the meta - thinking outside of the box, solving problems using derivatives
 * Process orientated
-* Solution Architecture 
+* Solution Architecture
 
 The engineers who obsess over developer experience and feature velocity.  They see LLMs as a tool and respect that it takes them 80% of the way.  When it comes to the last 20%, they default to making adjustments to take it to 90, 95, or 100% over taking it to the finish line by hand.
 
