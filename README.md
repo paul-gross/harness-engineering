@@ -54,6 +54,7 @@ Insights and thoughts on the theory of harness engineering that can shape the wa
 * [Iterative agents](./concepts/iterative-agents.md)
 * [Iterative planning](./concepts/iterative-planning.md)
 * [Lift](./concepts/lift.md)
+* [Local ephemeral environments for agents](./concepts/local-ephemeral-environments-for-agents.md)
 * [Overloaded terms](./concepts/overloaded-terms.md)
 * [Progressive disclosure](./concepts/progressive-disclosure.md)
 * [Readability = skimmability](./concepts/readability-equals-skimmability.md)

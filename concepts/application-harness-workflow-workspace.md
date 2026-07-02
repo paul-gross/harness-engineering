@@ -27,7 +27,7 @@ Separation of harness and workflow ensures that the only thing in the harness ar
 * **Application architecture & architectural governance**: What code goes in which project, owned by the [Application architect](./application-architect.md)
 * **Code conventions**: Patterns & standards the teams have agreed upon
 * **Service topology**: Holistic big picture for agent planning
-* **Interchangeable mocks & configuration**: [Agent-managed tools](./agent-managed-tooling.md) supporting local ephemeral environments
+* **Interchangeable mocks & configuration**: [Agent-managed tools](./agent-managed-tooling.md) supporting [local ephemeral environments](./local-ephemeral-environments-for-agents.md)
 * **Domain model documentation**: The source of truth of the business rules
 * **Feature development expectations**: Agent's definition of done
 * **CI/CD pipeline information**: Inform agents how to interact with deployment mechanisms

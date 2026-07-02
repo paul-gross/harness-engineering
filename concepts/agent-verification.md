@@ -26,7 +26,7 @@ Agent created outputs tend to fall short.  We often see an agent get most of it 
 * **Code review**: Agents can reason about the code and make judgements about complex concepts
 * **Context review**: Agents can read supporting markdown files in a [Domain harness](./harness-components.md) and evaluate if they improve future agent work
 * **Harness review**: Agents can evaluate the process of how agents have been working and make judgements about the agentic process itself
-* **Using the output**: Agents can interact with output (test it) to check if it works or not
+* **Using the output**: Agents can interact with output (test it) in a [local ephemeral environment](./local-ephemeral-environments-for-agents.md) to check if it works or not
 * **Reading logs**: Agents can read logs and other observability metrics to check if scenarios occurred or not
 * **Challenging the thought**: Agents can provide examples of counter-arguments or counter-theories to disprove
 

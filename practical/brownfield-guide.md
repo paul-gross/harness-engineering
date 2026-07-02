@@ -40,7 +40,7 @@ Effectiveness of an agent is improved dramatically by the capability of said age
 
 ## Phase 4: Local ephemeral environments
 
-Developers will start to be blocked by wall time.  A single agent will work longer and leave the developer waiting.
+This is where [local ephemeral environments](../concepts/local-ephemeral-environments-for-agents.md) start to pay off.  Developers will start to be blocked by wall time.  A single agent will work longer and leave the developer waiting.
 
 Naturally, a developer will begin to run a second agent in parallel.  The first agent works while the second agent is dialed into their task.  When the first agent completes, the developer can review the output while the second agent works.
 
