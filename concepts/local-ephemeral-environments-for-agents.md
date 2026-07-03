@@ -18,11 +18,13 @@ For me, personally, connecting the agent to the application itself was one of th
 
 ## Multiple environments
 
-In our journey through the [stages of agentic development](./walk-run-wheels-rocket-into-space.md), we will eventually hit a point where an agent is running on one task for long enough that we'll want to set up a second agent to work, side by side, on a different task.  This leads to the dual-agent mode where humans review one output while another output is being generated.  As of July 2026, there is a bit of a gap here in the tooling.  Parallelization of tasks through cloud-based environments is an interesting idea.  But doing this requires tackling a lot of large problems and when you get there you are now detached from the rich local environment.  You can't review locally with your own diff tools, you can't inspect things locally, you can't have that infinite observability.  I'm just not sold.
+In our journey through the [stages of agentic development](./walk-run-wheels-rocket-into-space.md), we will eventually hit a point where an agent is running on one task for long enough that we'll want to set up a second agent to work, side by side, on a different task.  This leads to the dual-agent mode where humans review one output while another output is being generated.  As of July 2026, there is a bit of a gap here in the tooling.  Parallelization of tasks through cloud-based environments is an interesting idea.  Doing this requires tackling a lot of large problems and when you get there you are now detached from the rich local environment.  You lose all of your tools.  You can't review locally with your own diff tools.  You can't inspect things with your beloved IDE.  You can't have the same level of observability and real time feedback.
 
-Maybe I am stubborn and holding on to the old ways.  Or maybe I feel like my productivity using horizontally scaled cloud-based environments doesn't match up to my productivity using horizontally scaled local environments.
+Why not horizontally scale agent environments *locally*?
 
-Either way, it makes sense to me for agents to work in rich local ephemeral environments.
+Does productivity using horizontally scaled cloud-based environments match up to our productivity using horizontally scaled local environments?
+
+It makes sense in the foreseeable future for agents to work in rich local ephemeral environments.
 
 ### Simple applications like CLIs
 
