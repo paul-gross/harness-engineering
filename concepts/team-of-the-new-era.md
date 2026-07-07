@@ -74,7 +74,7 @@ The engineers who break down concepts, categorize them, and simplify them.  Appl
 
 * They manage macro level complexity, resolving tech debt
 * Work with harness engineer to improve feedforward and feedback mechanisms in the harness
-* Make general improvements acccording to the the tenets of the project, becoming a force multiplier for the team
+* Make general improvements according to the tenets of the project, becoming a force multiplier for the team
 
 ### The [Harness engineer](./harness-engineer.md)
 
@@ -85,7 +85,7 @@ The engineers who break down concepts, categorize them, and simplify them.  Appl
 The engineers who obsess over developer experience and feature velocity.  They see LLMs as a tool and respect that it takes them 80% of the way.  When it comes to the last 20%, they default to making adjustments to take it to 90, 95, or 100% over taking it to the finish line by hand.
 
 * Improve the harness, automating more and more aspects of the software development process as the applications mature and age
-* Connect developers, through the harness, to desparate systems via MCPs or CLIs for workflow improvements
+* Connect developers, through the harness, to disparate systems via MCPs or CLIs for workflow improvements
 * Manage overarching systems that enable LLMs to oversee the deployed production application
 * They build features to evaluate the harness
 
@@ -99,7 +99,7 @@ For lack of a better term, vibe coding can simply be the act of building softwar
 * The forward deployed engineer is the spearhead of innovation, primarily building within client scoped feature flags
 * The harness engineer & architect should have generous amounts of autonomy to give ample space
 * The application architect is allowed to set & change the rules and invariants of the codebase
-* The applicaiton architect continuously monitors the invariants and refactors based on their judgement (or if the harness engineer can supply data, that is better)
+* The application architect continuously monitors the invariants and refactors based on their judgement (or if the harness engineer can supply data, that is better)
 * The software engineers are focused on building features and infrastructure to support the system
 
 The technology organizations of the future will heavily rely on the expertise of the harness engineers.  It behooves leadership to give respect to this new role.  Find them and listen to them.  We should understand what they can do and the value it provides.

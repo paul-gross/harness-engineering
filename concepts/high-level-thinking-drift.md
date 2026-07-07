@@ -34,4 +34,4 @@ It is easy to fall into the trap of using the LLM to generate the context that f
 * Use LLMs to stub out *something* that gives you a starting point for a conversation with an LLM
 * Iterate on the markdown files both strategically (how to divide and slice context) and tactically (how the context is written)
 * Iterate on your processes to get it to stub out something that requires less iteration
-* Eval it if you can -- have your LLM spawn 100 agents that all give the same basic task or question, ask how many responded correctly (It's can be that simple).
+* Eval it if you can -- have your LLM spawn 100 agents that all give the same basic task or question, ask how many responded correctly (It can be that simple).

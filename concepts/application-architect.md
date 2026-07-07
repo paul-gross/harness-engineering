@@ -49,7 +49,7 @@ Yes you can measure some things and also measure the change of those things, but
 
 I have found success in owning my own productivity without asking for permission.  I update my IDE configuration when I need to.  I update my workflow when I want to.  I continuously improve and I deliver value.  Harness engineering requires more than that.  It requires a lot of thought and effort.  It requires dedication.  It needs to be the primary objective for those who understand it, not the secondary objective.
 
-Start giving engineers a clear and unambiguous direction on their contributions towards future productivity vs feature development.  Track hours if needed.  Declare it as 100% of their time, 50%, 30%, 10%, or 0%.  If it is 0%, be intential and honest about it.
+Start giving engineers a clear and unambiguous direction on their contributions towards future productivity vs feature development.  Track hours if needed.  Declare it as 100% of their time, 50%, 30%, 10%, or 0%.  If it is 0%, be intentional and honest about it.
 
 ## Application architecture
 
