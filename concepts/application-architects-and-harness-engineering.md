@@ -2,7 +2,7 @@
 
 This new era of software development has new emerging skills that are needed.  They may overlap with traditional software development, but I think it is very likely the case that we will see a new role emerge.
 
-It happened with DevOps, it happened with forward deployed engineers, it'll happen with whoever is responsible for the agentic harness.  
+It happened with DevOps, it happened with forward deployed engineers, it'll happen with whoever is responsible for the harness.  
 
 It'll be the [Harness engineer](./harness-engineer.md).
 
@@ -10,7 +10,7 @@ It'll be the [Harness engineer](./harness-engineer.md).
 
 I believe that a strong & talented application architect operating with some level of autonomy has been an important part of controlling macro level complexity in software for years.  Additionally, I feel a new skillset is emerging, harness engineering, which is an extension to the application architect.  A harness engineer would benefit from an application architect background.  Or both roles could exist on the same team.
 
-There is too much overlap between human developer productivity (largely affected by the application architect's decisions) and LLM productivity.  You cannot wrap a harness around a giant spaghetti monster and expect results.  It's the same as if you tried to wrap a process around a failing team.  Technical Excellence is still the foundational piece.
+There is too much overlap between human developer productivity (largely affected by the application architect's decisions) and LLM productivity.  You cannot wrap a harness around a giant spaghetti monster and expect results.  It's the same as if you tried to wrap a process around a failing team.  Technical excellence is still the foundational piece.
 
 The combination of an application architect and a harness engineer can keep an operation like [Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04) running without layers of insurmountable spaghetti code.  They can manage its macro complexity.  **This is hard**.  It requires a strong skillset in software engineering, an intuition for big picture thinking, and a fast-learning mindset.  They need to be able to come up to speed with things quickly and have a strong grip on the long term vision while code is changing rapidly.
 

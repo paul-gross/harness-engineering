@@ -4,7 +4,7 @@ The act of giving an agent an extremely high level prompt will produce a drifted
 
 ## What?
 
-Suppose we told an agent to *Create an agentic harness for my application*.
+Suppose we told an agent to *Create a harness for my application*.
 
 It'll start with a plan.  It'll research the codebase and form something.  That plan will be *a file*.  We've gone from a sentence to a file.
 
@@ -17,7 +17,7 @@ Now that one file *becomes a commit*.  It's hundreds or thousands of lines of co
 
 If you look closely at the output, you'll notice there are *things* in it, but they *aren't really useful*.  If you embraced lift, you now have 2 levels of drift applied to the outcome.  If you iterated on the plan, you only have one level of drift applied. Drift applied onto drift (two levels) washes out the original idea.  Try it and see how it does.
 
-Now that you have your agentic harness, you start to feed it features.  That one commit *becomes dozens or hundreds of commits*.  If you embraced lift, this is the third layer of drift.
+Now that you have your harness, you start to feed it features.  That one commit *becomes dozens or hundreds of commits*.  If you embraced lift, this is the third layer of drift.
 
 ### High level thinking & recursive drift
 

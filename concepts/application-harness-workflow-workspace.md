@@ -4,11 +4,11 @@ Agent native development has shifted the way developers work by injecting new id
 
 Where [Harness components](./harness-components.md) decomposes the harnessed application into its parts, this note zooms out a level to place the application, harness, workflow, and workspace relative to one another.
 
-## Making the case: the harness belongs in its own area
+## Making the case: the domain harness belongs in its own area
 
 When we first step into harness engineering, Claude Code guides us to create a CLAUDE.md file that contains everything the agent needs to know to work on the repository.  This is a misleading start.  It puts us on a path that our application should be intertwined with the context that helps agents understand it.  The paved path is to put CLAUDE.md files in each project directory.  The downside is that these CLAUDE.md files defy [Progressive disclosure](./progressive-disclosure.md) by forcing agents to read files that provide information that they may not be interested in.
 
-When we are working with polyrepo applications, the choice is clear.  A cross cutting harness cannot exist within a single repository.  Instead, we glue an additional cross cutting harness repository adjacent.
+When we are working with polyrepo applications, the choice is clear.  A cross cutting domain harness cannot exist within a single repository.  Instead, we glue an additional cross cutting harness repository adjacent.
 
 Monorepo applications can embed the harness inside of it like any other project.
 
@@ -18,9 +18,9 @@ As we progress along the harness engineering journey, we will continually treat 
 
 Determining what goes into the markdown files and why can be contentious.  Large teams may have disagreements over the way things are written.  The structure of the harness may not align with the individual developer's workflow.  Maybe some developers like to use docker compose to bring up services, but others like to run them locally.  Maybe some developers like to have their agents write tests before code and others prefer tests after code.  Maybe some developers don't need to use all 30 MCPs and don't want the context of their agents to be polluted.
 
-**Leave the opinionated stuff out of the harness**, let each developer bring their own workflow.
+**Leave the opinionated stuff out of the domain harness**, let each developer bring their own opinionated workflow.
 
-Separation of harness and workflow ensures that the only thing in the harness are the objective facts.
+Separation of domain harness and workflow ensures that the only things in the domain harness are the objective facts.
 
 * **Project overview**: Information about relevant repositories and their function
 * **Project setup**: Instructions guiding agents on how to scaffold the application locally
@@ -40,7 +40,7 @@ What's left in the workflow?
 * **Evaluation frameworks**: flows that evaluate changes to the harness itself
 * **Agent definitions**: The preferred brand of tools each developer brings
 
-The harness becomes universal and consumable by any role.  The workflows start to emerge as the [different personas](./team-of-the-new-era.md) begin executing on the application.  
+The domain harness becomes more universal and consumable by any role.  The workflows start to emerge as the [different personas](./team-of-the-new-era.md) begin executing on the application.  
 
 * We will see non-technical stakeholders who may wish to ask questions about the application or make subtle changes
 * We will see product and business roles contributing with basic workflows

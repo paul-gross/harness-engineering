@@ -14,11 +14,11 @@ Ask yourself what tech debt *really is*.
 * Is it **a lack of architectural boundaries between application and domain concepts**?
 * Is it **scaling challenges due to a growing userbase**?
 * Is it **highly coupled interconnected services stuck in lock-step deployments**?
-* Is it **a lack of an agentic harness in place**?
+* Is it **a lack of a domain harness in place**?
 
 Those are all different things.  But they're probably all pushed into the tech debt bucket.  
 
-If tech debt is simply defined as anti-productivity unrelated to features, then I would argue that a lack of an agentic harness *is* tech debt (at this point).
+If tech debt is simply defined as anti-productivity unrelated to features, then I would argue that a lack of a domain harness *is* tech debt (at this point).
 
 ## It's not debt until you build on top of it
 
@@ -74,4 +74,4 @@ This is a lot of work, yes, but like most tech debt / refactoring it is a large 
 
 LLMs change the game when it comes to tackling tech debt.  You can start with having them tackle automated business testing (aka real end-to-end tests) first (often a technical debt item of many teams).  Then that will give you a way to score the refactor.
 
-This is one of the reasons that I believe the [Application architect](../concepts/application-architect.md) should have more autonomy, they should be able to prioritize tackling tech debt that enables the agentic harness to stay grounded.
+This is one of the reasons that I believe the [Application architect](../concepts/application-architect.md) should have autonomy, they should be able to prioritize tackling tech debt that enables agentic development to stay grounded.

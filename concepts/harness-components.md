@@ -2,17 +2,19 @@
 
 The harness is a vague [Overloaded term](./overloaded-terms.md) in the industry that encompasses a wide variety of traits.  The concept can be broken out into pieces, and those pieces are the _components_ of the harness.
 
-## Five components of a harnessed application
+## Five components of a harnessed workspace
 
-Each component of the harness is independent and exists with its own dependencies and awareness of other components.  The harness is not _layered_ in the sense that each builds on the other, instead they form more of a _graph_.
+The harnessed workspace is the environment that the agent sits in.  This is the actual seat that the agent (or human) can sit into.  Once seated, the agent has an array of capabilities that are enabled by the individual components.  If the agent has development tools or the ability to run applications on the operating system, that gives them tremendous capabilities.  If the agent has only one tool available that will turn on or off a light bulb, then the capabilities are much more limited.
+
+Each component of the harnessed workspace is independent and exists with its own dependencies and awareness of other components.  The harness is not _layered_ in the sense that each builds on the other, instead they form more of a _graph_.  In practice, these are not individual implementations.  A harness could be thought of as a collection of any number of these components.  A single harnessed workspace could target multiple applications.  Another harnessed workspace may have five coding harnesses.
 
 ### Application
 
-The [application](./application-architect.md) is the core target.  It is what everything is acting on.  It could be a SaaS platform.  It could be a book.  It can be operated on with or without LLMs.
+The [application](./application-architect.md) is the core target.  It is what everything is acting on.  It could be a SaaS platform.  It could be a book.  It can be operated on with or without LLMs.  The tools are used to operate on the application.
 
-### Agent harness
+### Coding harness
 
-Everything that Claude Code, Codex, or Opencode does is the agent harness.  These tools equip LLMs with the basic capabilities of reading and writing.  They offer building blocks for users to form processes and manage context.  Fundamentally they have no awareness of what it is working on.
+Everything that Claude Code, Codex, or Opencode does is the coding harness.  These tools equip LLMs with the basic capabilities of reading and writing.  They offer building blocks for users to form processes and manage context.  Fundamentally they have no awareness of what it is working on.  The name, coding harness, isn't ideal because these harnesses allow agents to do **almost anything**.  They're designed to write code, but they can do anything within a computer that a human can.
 
 * **Tool execution & fundamental tools**: Read, Write, Grep, MCP, run CLI commands
 * **Context Management**: Skills, Compaction, Research, Memory
@@ -21,7 +23,7 @@ Everything that Claude Code, Codex, or Opencode does is the agent harness.  Thes
 
 ### Domain harness
 
-What the agent does is up to the user.  The domain harness provides agents with information and tools.  The purpose of the domain harness is to enable the user to achieve a goal effectively through an agent.  The goal is arbitrary, it could be to write a piece of code, ideate on a concept, diagnose production issues, or onboard a new user to the system.
+What the agent does is up to the user.  The domain harness provides agents with information and tools about their specific area they are working in.  The purpose of the domain harness is to enable the user to achieve more specific goals effectively through the agent.  The goal is arbitrary, it could be to write a piece of code, ideate on a concept, diagnose production issues, or onboard a new user to the system.
 
 All domain harness traits are specific to the domain itself.  This includes your application's dependencies.  If your application uses infrastructure as code, terraform documentation or MCPs are part of your domain.  
 
@@ -45,7 +47,7 @@ The recursive nature of automated governance currently terminates at the canon. 
 
 ### Theory of harness engineering
 
-This repository of information is the theory of harness engineering.  In the current state (Spring of 2026), the theory of harness engineering is 100% human.  We theorize, we explore concepts, and we make changes to our canon, to our domain harness, and to our agent harness.
+This repository of information is the theory of harness engineering.  In the current state (Spring of 2026), the theory of harness engineering is 100% human.  We theorize, we explore concepts, and we make changes to our canon, to our domain harness, and to our coding harness.
 
 In the future, it is feasible that agents themselves will manage the theory of harness engineering.
 
@@ -57,13 +59,13 @@ The relationships between the components resemble the same type of structures th
 
 * **Application**: Represents the core target of the model
   * The application is agnostic to all harness components
-* **Agent harness**: Exists independently and fulfills the contracts that we expect (managing the agents)
-* **Domain harness**:  Depends on the agent harness interface, the application, and the canon
+* **Coding harness**: Exists independently and fulfills the contracts that we expect (managing the agents)
+* **Domain harness**:  Depends on the coding harness interface, the application, and the canon
   * Knows about the concepts that exist within Claude Code, Codex, or OpenCode, but it doesn't know about the details
   * Has intimate coupling to the application
   * Aware of the guiding principles of the canon
 * **Canon**:  Exists independently and provides the principles and rules for any domain harness to follow
-  * Enables and guides **workflows** that enable autonomous agent harness improvements
+  * Enables and guides **workflows** that enable autonomous coding harness improvements
   * Built from the theory of harness engineering
 * **Theory of harness engineering**: Completely independent
 
@@ -71,7 +73,7 @@ The relationships between the components resemble the same type of structures th
 %%{init: {'flowchart': {'curve': 'linear'}}}%%
 graph TD
     App["Application"]
-    Agent["Agent harness"]
+    Agent["Coding harness"]
     Domain["Domain harness"]
     Canon["Canon"]
     Theory["Theory of harness engineering"]

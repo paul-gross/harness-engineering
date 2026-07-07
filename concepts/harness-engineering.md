@@ -47,7 +47,7 @@ Keep this in mind as we explore how context engineering works in a [*brownfield*
 The ten dimensions of the harness model is a great assessment of capabilities, but the implementation breaks down into [distinct components](./harness-components.md).  Those components work to establish the capabilities listed above.
 
 * Application
-* Agent harness
+* Coding harness
 * Domain harness
 * Canon
 * Theory of harness engineering

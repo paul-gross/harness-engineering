@@ -8,7 +8,7 @@ The simplest form of progressive disclosure is a [markdown link](./digital-garde
 
 ## Skills
 
-There are more features laced with skills, but the heart of a skill is a description and a body.  The description is injected into context when the agent harness runs.  The body is read when the skill is deemed useful.  Skills have extra features related context management, compaction, and configuration.  While skills are useful, they are not necessarily superior to markdown links at their core.
+There are more features laced with skills, but the heart of a skill is a description and a body.  The description is injected into context when the coding harness runs.  The body is read when the skill is deemed useful.  Skills have extra features related to context management, compaction, and configuration.  While skills are useful, they are not necessarily superior to markdown links at their core.
 
 ## Markdown link table
 

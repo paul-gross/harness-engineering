@@ -23,7 +23,7 @@ These are the traits that I feel strongly about.
 The traits that you feel strongly about should be the ones you focus on as you are progressing along this journey into your AI-assisted workflow.
 
 * Have confidence in yourself and what you do and push for your ideas to be considered
-* A diverse team with different individual core tenets should produce a more diverse and capable agentic harness
+* A diverse team with different individual core tenets should produce a more diverse and capable harness
 * There are other people who are more intelligent than we are in many areas, use them as the exemplars if you'd like
 
 ## Why we are the exemplars
