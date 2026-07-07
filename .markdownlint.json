@@ -3,5 +3,6 @@
   "MD013": false,
   "MD025": false,
   "MD026": { "punctuation": ".,;:" },
+  "MD033": { "allowed_elements": ["video"] },
   "MD036": false
 }
