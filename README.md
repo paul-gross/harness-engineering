@@ -14,7 +14,7 @@ My favorite language is TypeScript, though I am eager to embrace modern language
 
 * [Professional LinkedIn](https://www.linkedin.com/in/pjgross/)
 * Retired [Twitch Partner](https://twitch.tv/rain9441) & Factorio speedrunner
-* Currently employed as a Staff SSE at [Direct Supply](https://www.directsupply.com/)
+* Currently employed as a Senior Staff SE at [Direct Supply](https://www.directsupply.com/)
 
 ## What is this, **really**?
 
