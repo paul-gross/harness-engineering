@@ -2,7 +2,7 @@
 
 Agent native development has shifted the way developers work by injecting new ideas into daily tooling that don't fit the traditional mold.  Where does the harness go?  What is in the harness?  How do I manage the harness?
 
-Where [Harness components](./harness-components.md) decomposes the harnessed application into its parts, this note zooms out a level to place the application, harness, workflow, and workspace relative to one another.
+Where [Harness components](./harness-components.md) decomposes the harnessed workspace into its parts, this note zooms out a level to place the application, harness, workflow, and workspace relative to one another.
 
 ## Making the case: the domain harness belongs in its own area
 
@@ -60,7 +60,7 @@ These questions begin to unfold:
 * How do we manage local ephemeral environments, conflicting ports, isolated resources?
 * How do we manage service orchestration, spinning up and tearing down end-to-end local ephemeral applications?
 * How do we track work in progress across many local feature branches that may have active agents?
-* How do we enable native code harness skills, rules, or MCPs for a given project?
+* How do we enable native coding harness skills, rules, or MCPs for a given project?
 * How do we split the seam of harness, application, and workflow?
 
 These are all questions that are faced on this journey.  These are questions answered by a workspace framework like [winter](https://github.com/paul-gross/winter).
