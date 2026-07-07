@@ -34,7 +34,7 @@ Now my workflow is often to task my agent with a half dozen or so GitHub issues.
 
 I use a workspace for this.  I call it [Winter](https://github.com/paul-gross/winter).  My workspace is built for agentic development.  It helps me create feature environments that support polyrepo worktrees, provision resources, and manage services.  It grants the tools to the agent so they can do it themselves.
 
-<video src="/assets/agents-should-create-their-own-environments-demo.mp4" controls muted playsinline></video>
+<video src="../assets/agents-should-create-their-own-environments-demo.mp4" controls muted playsinline></video>
 
 * I tell my agents to spin up the services on the respective feature environment, they run a deterministic CLI tool that manages the services
 * I tell my agents to check the logs of the services and look for errors, they use the CLI tool to aggregate all of the backing service logs into one stream to look for errors
