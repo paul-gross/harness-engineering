@@ -61,6 +61,7 @@ Insights and thoughts on the theory of harness engineering that can shape the wa
 * [Overloaded terms](./concepts/overloaded-terms.md)
 * [Progressive disclosure](./concepts/progressive-disclosure.md)
 * [Readability = skimmability](./concepts/readability-equals-skimmability.md)
+* [Session lineage](./concepts/session-lineage.md)
 * [Team of the new era](./concepts/team-of-the-new-era.md)
 * [Traditional feedback loops](./concepts/traditional-feedback-loops.md)
 * [Walk, run, wheels, rocket into space!](./concepts/walk-run-wheels-rocket-into-space.md)

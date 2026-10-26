@@ -30,7 +30,7 @@ Agents thrive on tight feedback loops.
 * Do the integration tests pass? No -> Fix it
 * Does it **work**? :thonking:  Can your agent [verify what it built works](./agent-verification.md)?  No -> Fix it
 
-At this point, our agents aren't able to handle extremely low latency real time operations.  They aren't cross referencing workspace level LSP type checking hints with the code they just wrote.  Maybe some are, but the agents aren't built to take in an event stream (this may be cost prohibitive based on how token caches work).  They're built to take in large blocks of context.  But that doesn't mean we can't aim for the same experience.
+At this point, our agents aren't able to handle extremely low latency real time operations.  They aren't cross referencing workspace level LSP type checking hints with the code they just wrote.  Maybe some are, but the agents aren't built to take in an event stream (this may be cost prohibitive based on [how token caches work](./session-lineage.md)).  They're built to take in large blocks of context.  But that doesn't mean we can't aim for the same experience.
 
 ### Pondering about agent tooling
 
