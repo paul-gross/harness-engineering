@@ -15,7 +15,7 @@ The pure LLM approach is by far the simplest to create but the most expensive to
 
 ## Embracing agent verification
 
-Agent verification can be used on human created output or agent created output.  In either case, there is arguably an effectiveness in terms of the cost to value ratio.  It's simple and cheap to ask an agent to review code, review documentation, or review my essay on harness engineering.  It's a much bigger ask to push a human to do it.
+Agent verification can be used on human created output or agent created output.  In either case, there is arguably an effectiveness in terms of the cost to value ratio.  It's simple and cheap to [ask an agent to review code](./session-lineage.md#cold-eyes), review documentation, or review my essay on harness engineering.  It's a much bigger ask to push a human to do it.
 
 Agent created outputs tend to fall short.  We often see an agent get most of it right, but it's not _quite right_.  It's missing a small detail or it added an unnecessary embellishment (this is why I can't use AI to write this [Digital garden](./digital-garden.md)).  Despite that, we can think of agent verification as a way to reduce the probability of an error, or reduce the probability of the unnecessary embellishment.
 
