@@ -44,4 +44,4 @@ Give the agent [reference data](./progressive-disclosure.md) to support any info
 
 ## The dead end
 
-The bet I made in July of 2026 was that reusing the context from the build step in the pre-push step would enable a better merge conflict resolution.  The data said otherwise.  Rebasing and merging didn't require the effort and thoughts of the build, it only required the artifacts that were stamped along the journey.  Those artifacts serve as the compacted conversation of the graph.
+The bet I made in July of 2026 was that reusing the context from the build step in the pre-push step would enable a better merge conflict resolution.  The cost data said otherwise.  Rebasing and merging didn't require the effort and thoughts of the build, it only required the artifacts that were stamped along the journey.  Those artifacts serve as the compacted conversation of the graph.
