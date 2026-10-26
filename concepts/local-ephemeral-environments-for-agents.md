@@ -57,7 +57,7 @@ The goal is to manage multiple instances of your application suite on your local
 
 The very first iteration of this process is to ask your agent to run the service in the background while it executes a browser-based or curl-based set of tests.  This will get a foot in the door.  The first issue we face is that the background process is orphaned.  Agents can start, but they're not great at stopping.  At any point, the human steering the operation can stop executing commands.  If no turn is executed then no cleanup can occur.
 
-* Named tmux sessions can be a great way to hold the process tree, giving both humans and agents insight and control
+* Named tmux sessions or process-compose sessions can be a great way to hold the process tree, giving both humans and agents insight and control
 * Docker / Docker Compose can be utilized as well
 * Kubernetes can be another alternative, though it might be heavier than what a local environment needs for most users
 
