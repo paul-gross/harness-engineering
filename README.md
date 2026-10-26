@@ -79,3 +79,10 @@ Applying harness engineering in a non-idyllic environment.  Harness engineering 
 
 * [Brownfield guide](./practical/brownfield-guide.md)
 * [Grim trajectory](./practical/grim-trajectory.md)
+
+### Essays
+
+Longer-form writing.
+
+* [Agents should create their own environments](./essays/agents-should-create-their-own-environments.md)
+* [It is hard to slow down](./essays/it-is-hard-to-slow-down.md)
