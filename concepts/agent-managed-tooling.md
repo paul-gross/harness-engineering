@@ -27,4 +27,3 @@ This verifiability matrix can be used in the planning phase.  For each piece of 
 ### Execution: the verification step
 
 If we have the sibling matrices established, the agent that is executing and implementing changes at the code level can now go back and reference the requirements and the steps to verify them.  After completion, they know to check off each step and they know to use the tools referenced.  This establishes a very achievable goal that can be restarted or rerun after [multiple iterations](./iterative-agents.md).
-
